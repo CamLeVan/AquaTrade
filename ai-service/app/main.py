@@ -1,16 +1,23 @@
 from contextlib import asynccontextmanager
+import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.v1.router import api_router
 from app.core.config import settings
+from app.services.yolo_service import yolo_service
+
+logger = logging.getLogger(__name__)
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup logic
+    # Startup: Load YOLOv8 model
+    logger.info("Initializing YOLOv8 model service...")
+    yolo_service.load_model()
     yield
     # Shutdown logic
+    logger.info("Shutting down AI service...")
 
 
 app = FastAPI(
@@ -28,6 +35,7 @@ if settings.CORS_ORIGINS:
         allow_methods=["*"],
         allow_headers=["*"],
     )
+
 
 # Root-level health check convenience endpoint
 @app.get("/health", tags=["Health"], include_in_schema=False)
