@@ -1,9 +1,17 @@
 from datetime import datetime, timezone
 import uuid
-from typing import Dict, List
-from fastapi import APIRouter, HTTPException, status
+from typing import Dict, List, Optional
+from fastapi import APIRouter, File, Form, HTTPException, UploadFile, status
 
-from app.schemas.job import JobCreate, JobListResponse, JobResponse, JobStatus
+from app.schemas.job import (
+    JobCreate,
+    JobListResponse,
+    JobResponse,
+    JobStatus,
+    JobType,
+    VideoUploadResponse,
+)
+from app.services.video_validation import save_uploaded_video, validate_video_file
 
 router = APIRouter(prefix="/jobs", tags=["Jobs"])
 
@@ -30,6 +38,62 @@ async def create_job(job_in: JobCreate):
         job_type=job_in.job_type,
         listing_id=job_in.listing_id,
         video_url=job_in.video_url,
+        created_at=now,
+        updated_at=now,
+    )
+    jobs_db[job_id] = job
+    return job
+
+
+@router.post(
+    "/upload",
+    response_model=VideoUploadResponse,
+    status_code=status.HTTP_201_CREATED,
+    summary="Upload and validate a video file for analysis",
+)
+async def upload_video(file: UploadFile = File(...)):
+    """
+    Upload and validate a video file against allowed extensions, MIME types,
+    maximum file size, and header binary signatures.
+    """
+    validation_info = await validate_video_file(file)
+    saved_path, size_bytes = await save_uploaded_video(file)
+    
+    return VideoUploadResponse(
+        filename=validation_info["filename"],
+        saved_path=saved_path,
+        file_size_bytes=size_bytes,
+        content_type=validation_info["content_type"],
+        message="Video uploaded and validated successfully.",
+    )
+
+
+@router.post(
+    "/upload-and-analyze",
+    response_model=JobResponse,
+    status_code=status.HTTP_201_CREATED,
+    summary="Upload video and queue an analysis job in one step",
+)
+async def upload_and_analyze(
+    file: UploadFile = File(...),
+    listing_id: Optional[str] = Form(None),
+    job_type: JobType = Form(JobType.FISH_ANALYSIS),
+):
+    """
+    Uploads and validates a video file, then immediately registers a pending analysis job.
+    """
+    await validate_video_file(file)
+    saved_path, _ = await save_uploaded_video(file)
+
+    job_id = str(uuid.uuid4())
+    now = datetime.now(timezone.utc)
+
+    job = JobResponse(
+        job_id=job_id,
+        status=JobStatus.PENDING,
+        job_type=job_type,
+        listing_id=listing_id,
+        video_url=saved_path,
         created_at=now,
         updated_at=now,
     )

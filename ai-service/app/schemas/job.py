@@ -47,3 +47,11 @@ class JobResponse(BaseModel):
 class JobListResponse(BaseModel):
     total: int
     jobs: List[JobResponse]
+
+
+class VideoUploadResponse(BaseModel):
+    filename: str = Field(..., description="Original video filename")
+    saved_path: str = Field(..., description="Local storage path of saved video")
+    file_size_bytes: int = Field(..., description="File size in bytes")
+    content_type: str = Field(..., description="MIME content type")
+    message: str = Field(default="Video uploaded and validated successfully")

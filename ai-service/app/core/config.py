@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "AquaTrade AI Service"
-    VERSION: str = "0.1.0"
+    VERSION: str = "0.2.0"
     DESCRIPTION: str = "AI inference and digital proof verification service for AquaTrade"
     API_V1_STR: str = "/api/v1"
     
@@ -22,6 +22,17 @@ class Settings(BaseSettings):
     # Storage paths
     UPLOAD_DIR: str = "uploads"
     OUTPUT_DIR: str = "output"
+
+    # Video upload validation settings
+    MAX_UPLOAD_SIZE_MB: int = 100
+    ALLOWED_VIDEO_EXTENSIONS: List[str] = [".mp4", ".avi", ".mov", ".mkv", ".webm"]
+    ALLOWED_VIDEO_CONTENT_TYPES: List[str] = [
+        "video/mp4",
+        "video/x-msvideo",
+        "video/quicktime",
+        "video/x-matroska",
+        "video/webm",
+    ]
 
     model_config = SettingsConfigDict(
         env_file=".env",
