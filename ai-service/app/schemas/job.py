@@ -55,3 +55,13 @@ class VideoUploadResponse(BaseModel):
     file_size_bytes: int = Field(..., description="File size in bytes")
     content_type: str = Field(..., description="MIME content type")
     message: str = Field(default="Video uploaded and validated successfully")
+
+
+class VideoMetadataResponse(BaseModel):
+    total_frames: int
+    fps: float
+    duration_seconds: float
+    width: int
+    height: int
+    codec: str
+

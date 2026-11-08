@@ -9,8 +9,10 @@ from app.schemas.job import (
     JobResponse,
     JobStatus,
     JobType,
+    VideoMetadataResponse,
     VideoUploadResponse,
 )
+from app.services.frame_extractor import frame_extractor
 from app.services.video_validation import save_uploaded_video, validate_video_file
 
 router = APIRouter(prefix="/jobs", tags=["Jobs"])
@@ -129,6 +131,49 @@ async def get_job(job_id: str):
             detail=f"Job with ID '{job_id}' not found",
         )
     return jobs_db[job_id]
+
+
+@router.get(
+    "/{job_id}/metadata",
+    response_model=VideoMetadataResponse,
+    summary="Extract and view video metadata for a specific job",
+)
+async def get_job_video_metadata(job_id: str):
+    """
+    Extracts frame rate, total frames, resolution, and duration of the job's video.
+    """
+    if job_id not in jobs_db:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Job with ID '{job_id}' not found",
+        )
+    job = jobs_db[job_id]
+    if not job.video_url:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Job does not have an associated video path/URL.",
+        )
+    try:
+        metadata = frame_extractor.get_metadata(job.video_url)
+        return VideoMetadataResponse(
+            total_frames=metadata.total_frames,
+            fps=metadata.fps,
+            duration_seconds=metadata.duration_seconds,
+            width=metadata.width,
+            height=metadata.height,
+            codec=metadata.codec,
+        )
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Video file does not exist on disk.",
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to read video metadata: {str(e)}",
+        )
+
 
 
 @router.delete(
