@@ -38,10 +38,25 @@ class JobResponse(BaseModel):
     job_type: JobType
     listing_id: Optional[str] = None
     video_url: Optional[str] = None
+    progress: float = Field(default=0.0, ge=0.0, le=100.0, description="Progress percentage (0.0 to 100.0)")
+    stage: str = Field(default="PENDING", description="Current execution stage")
     created_at: datetime
     updated_at: datetime
+    started_at: Optional[datetime] = None
+    completed_at: Optional[datetime] = None
     result: Optional[JobResult] = None
     error: Optional[str] = None
+
+
+class JobStatusResponse(BaseModel):
+    job_id: str
+    status: JobStatus
+    progress: float
+    stage: str
+    started_at: Optional[datetime] = None
+    completed_at: Optional[datetime] = None
+    error: Optional[str] = None
+
 
 
 class JobListResponse(BaseModel):
