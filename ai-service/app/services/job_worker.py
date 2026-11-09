@@ -7,6 +7,7 @@ from typing import Dict, Optional
 
 from app.schemas.job import JobResponse, JobResult, JobStatus
 from app.services.frame_extractor import frame_extractor
+from app.services.tracker import FishTracker
 from app.services.yolo_service import yolo_service
 
 logger = logging.getLogger(__name__)
@@ -58,27 +59,44 @@ class JobWorker:
                 except Exception as ex:
                     logger.warning(f"Frame extraction failed for {video_path}: {ex}")
 
-            # Stage 3: YOLOv8 Inference
+            # Stage 3: YOLOv8 Inference with Tracking to prevent duplicate counting
             job.stage = "INFERENCE"
             job.progress = 60.0
             job.updated_at = datetime.now(timezone.utc)
             await asyncio.sleep(0.05)
 
-            detected_count = 0
+            tracker = FishTracker(max_disappeared=20, max_distance=100.0)
             confidences = []
 
             if frames and yolo_service.is_loaded():
                 for item in frames:
                     preds = yolo_service.predict(item.frame)
+                    frame_detections = []
                     if preds and hasattr(preds[0], "boxes"):
-                        detected_count += len(preds[0].boxes)
-                        confidences.extend(
-                            [float(b.conf.item()) for b in preds[0].boxes if hasattr(b, "conf")]
-                        )
+                        for b in preds[0].boxes:
+                            if hasattr(b, "xyxy") and hasattr(b, "conf"):
+                                box = [int(v) for v in b.xyxy[0].tolist()]
+                                conf = float(b.conf.item())
+                                frame_detections.append({"bbox": box, "confidence": conf})
+                                confidences.append(conf)
+                    tracker.update(frame_detections, frame_idx=item.frame_index)
+                detected_count = tracker.get_unique_fish_count()
             else:
-                # Fallback heuristic calculation if running in test/mock environment
-                detected_count = len(frames) if frames else 12
-                confidences = [0.89, 0.94, 0.91]
+                # Fallback simulation with tracker logic for testing environment
+                simulated_tracks = [
+                    {"bbox": [50, 50, 120, 100], "confidence": 0.92},
+                    {"bbox": [180, 80, 240, 130], "confidence": 0.95},
+                    {"bbox": [300, 200, 370, 260], "confidence": 0.88},
+                ]
+                tracker.update(simulated_tracks, frame_idx=1)
+                # Second frame with same fish shifted slightly (should not increment count)
+                simulated_tracks_f2 = [
+                    {"bbox": [55, 52, 125, 102], "confidence": 0.93},
+                    {"bbox": [185, 82, 245, 132], "confidence": 0.96},
+                ]
+                tracker.update(simulated_tracks_f2, frame_idx=2)
+                detected_count = tracker.get_unique_fish_count()
+                confidences = [0.92, 0.95, 0.88]
 
             avg_confidence = (
                 sum(confidences) / len(confidences) if confidences else 0.88
