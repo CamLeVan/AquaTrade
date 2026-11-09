@@ -34,6 +34,12 @@ class Settings(BaseSettings):
         "video/webm",
     ]
 
+    # Backend webhook callback settings
+    BACKEND_CALLBACK_URL: str = "http://localhost:8080/api/v1/ai/proof/callback"
+    CALLBACK_MAX_RETRIES: int = 3
+    CALLBACK_TIMEOUT_SECONDS: float = 10.0
+
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

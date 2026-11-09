@@ -6,6 +6,7 @@ import os
 from typing import Dict, Optional
 
 from app.schemas.job import DigitalProofManifest, JobResponse, JobResult, JobStatus
+from app.services.callback_service import callback_service
 from app.services.frame_extractor import frame_extractor
 from app.services.proof_generator import proof_generator
 from app.services.tracker import FishTracker
@@ -153,6 +154,10 @@ class JobWorker:
             job.updated_at = completed_time
             logger.info(f"Job '{job_id}' completed successfully with proof hash: {proof_data['proof_hash']}")
 
+            # Stage 5: Dispatch results to backend callback webhook
+            cb_res = await callback_service.send_callback(job, target_url=job.callback_url)
+            job.callback_delivered = cb_res.get("success", False)
+
         except Exception as e:
             logger.exception(f"Job '{job_id}' failed: {e}")
             failed_time = datetime.now(timezone.utc)
@@ -161,3 +166,6 @@ class JobWorker:
             job.error = str(e)
             job.completed_at = failed_time
             job.updated_at = failed_time
+            # Also notify backend of failure if callback is configured
+            cb_res = await callback_service.send_callback(job, target_url=job.callback_url)
+            job.callback_delivered = cb_res.get("success", False)

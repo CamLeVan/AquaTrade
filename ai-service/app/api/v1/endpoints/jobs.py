@@ -6,6 +6,7 @@ from fastapi import APIRouter, BackgroundTasks, File, Form, HTTPException, Uploa
 from fastapi.responses import FileResponse
 
 from app.schemas.job import (
+    CallbackDispatchResponse,
     DigitalProofManifest,
     JobCreate,
     JobListResponse,
@@ -16,6 +17,7 @@ from app.schemas.job import (
     VideoMetadataResponse,
     VideoUploadResponse,
 )
+from app.services.callback_service import callback_service
 from app.services.frame_extractor import frame_extractor
 from app.services.job_worker import JobWorker
 from app.services.video_validation import save_uploaded_video, validate_video_file
@@ -53,6 +55,7 @@ async def create_job(
         job_type=job_in.job_type,
         listing_id=job_in.listing_id,
         video_url=job_in.video_url,
+        callback_url=job_in.callback_url,
         progress=0.0,
         stage="PENDING",
         created_at=now,
@@ -99,6 +102,7 @@ async def upload_and_analyze(
     background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
     listing_id: Optional[str] = Form(None),
+    callback_url: Optional[str] = Form(None),
     job_type: JobType = Form(JobType.FISH_ANALYSIS),
 ):
     """
@@ -116,6 +120,7 @@ async def upload_and_analyze(
         job_type=job_type,
         listing_id=listing_id,
         video_url=saved_path,
+        callback_url=callback_url,
         progress=0.0,
         stage="QUEUED",
         created_at=now,
@@ -315,6 +320,35 @@ async def get_annotated_video(job_id: str):
             detail="Annotated video file is not available on disk.",
         )
     return FileResponse(file_path, media_type="video/mp4", filename=f"{job_id}_annotated.mp4")
+
+
+@router.post(
+    "/{job_id}/resend-callback",
+    response_model=CallbackDispatchResponse,
+    summary="Manually trigger or retry sending analysis proof callback to backend",
+)
+async def resend_callback(job_id: str, callback_url: Optional[str] = None):
+    """
+    Dispatches or retries sending analysis results and digital proof to the backend webhook.
+    """
+    if job_id not in jobs_db:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Job with ID '{job_id}' not found",
+        )
+    job = jobs_db[job_id]
+    target = callback_url or job.callback_url
+    dispatch_res = await callback_service.send_callback(job, target_url=target)
+    job.callback_delivered = dispatch_res["success"]
+
+    return CallbackDispatchResponse(
+        job_id=job.job_id,
+        target_url=target or callback_service.default_callback_url,
+        success=dispatch_res["success"],
+        attempts=dispatch_res["attempts"],
+        status_code=dispatch_res["status_code"],
+        error=dispatch_res["error"],
+    )
 
 
 @router.delete(

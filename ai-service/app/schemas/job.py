@@ -53,6 +53,7 @@ class JobResponse(BaseModel):
     job_type: JobType
     listing_id: Optional[str] = None
     video_url: Optional[str] = None
+    callback_url: Optional[str] = None
     progress: float = Field(default=0.0, ge=0.0, le=100.0, description="Progress percentage (0.0 to 100.0)")
     stage: str = Field(default="PENDING", description="Current execution stage")
     created_at: datetime
@@ -60,7 +61,18 @@ class JobResponse(BaseModel):
     started_at: Optional[datetime] = None
     completed_at: Optional[datetime] = None
     result: Optional[JobResult] = None
+    callback_delivered: Optional[bool] = None
     error: Optional[str] = None
+
+
+class CallbackDispatchResponse(BaseModel):
+    job_id: str
+    target_url: str
+    success: bool
+    attempts: int
+    status_code: Optional[int] = None
+    error: Optional[str] = None
+
 
 
 class JobStatusResponse(BaseModel):
