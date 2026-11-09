@@ -5,9 +5,11 @@ import logging
 import os
 from typing import Dict, Optional
 
-from app.schemas.job import JobResponse, JobResult, JobStatus
+from app.schemas.job import DigitalProofManifest, JobResponse, JobResult, JobStatus
 from app.services.frame_extractor import frame_extractor
+from app.services.proof_generator import proof_generator
 from app.services.tracker import FishTracker
+from app.services.video_annotator import video_annotator
 from app.services.yolo_service import yolo_service
 
 logger = logging.getLogger(__name__)
@@ -102,22 +104,45 @@ class JobWorker:
                 sum(confidences) / len(confidences) if confidences else 0.88
             )
 
-            # Stage 4: Generate digital proof hash & finalization
+            # Stage 4: Generate annotated video & digital proof hash
             job.stage = "FINALIZING"
             job.progress = 85.0
             job.updated_at = datetime.now(timezone.utc)
             await asyncio.sleep(0.05)
 
-            # Generate SHA-256 digital proof signature
-            proof_payload = f"{job_id}:{job.listing_id}:{detected_count}:{avg_confidence:.2f}:{now.isoformat()}"
-            proof_hash = hashlib.sha256(proof_payload.encode("utf-8")).hexdigest()
+            # 1. Render annotated video
+            annotated_frames = []
+            if frames:
+                for f_item in frames:
+                    annotated = video_annotator.annotate_frame(
+                        f_item.frame,
+                        tracker.active_tracks.values(),
+                        detected_count,
+                        f_item.frame_index,
+                    )
+                    annotated_frames.append(annotated)
+
+            annotated_video_path = video_annotator.render_annotated_video(
+                job_id,
+                annotated_frames,
+            )
+
+            # 2. Generate cryptographic digital proof
+            proof_data = proof_generator.generate_proof(
+                job_id=job_id,
+                listing_id=job.listing_id,
+                video_path=video_path,
+                fish_count=detected_count,
+                confidence_score=avg_confidence,
+            )
 
             completed_time = datetime.now(timezone.utc)
             job.result = JobResult(
                 fish_count=detected_count,
                 confidence_score=round(avg_confidence, 4),
-                proof_hash=proof_hash,
-                annotated_video_url=f"/outputs/{job_id}_annotated.mp4",
+                proof_hash=proof_data["proof_hash"],
+                annotated_video_url=annotated_video_path,
+                proof_manifest=DigitalProofManifest(**proof_data),
                 completed_at=completed_time,
             )
 
@@ -126,7 +151,7 @@ class JobWorker:
             job.progress = 100.0
             job.completed_at = completed_time
             job.updated_at = completed_time
-            logger.info(f"Job '{job_id}' completed successfully with {detected_count} fish detected.")
+            logger.info(f"Job '{job_id}' completed successfully with proof hash: {proof_data['proof_hash']}")
 
         except Exception as e:
             logger.exception(f"Job '{job_id}' failed: {e}")

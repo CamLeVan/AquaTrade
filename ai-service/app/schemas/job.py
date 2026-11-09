@@ -24,12 +24,27 @@ class JobCreate(BaseModel):
     metadata: Dict[str, Any] = Field(default_factory=dict, description="Custom metadata for the job")
 
 
+class DigitalProofManifest(BaseModel):
+    version: str = "1.0"
+    algorithm: str = "SHA-256"
+    job_id: str
+    listing_id: Optional[str] = None
+    video_sha256: str
+    fish_count: int
+    confidence_score: float
+    model_version: str
+    verified_at: str
+    proof_hash: str
+
+
 class JobResult(BaseModel):
     fish_count: Optional[int] = Field(None, description="Detected number of fish")
     confidence_score: Optional[float] = Field(None, description="Average detection confidence score")
     proof_hash: Optional[str] = Field(None, description="SHA-256 digital proof signature")
     annotated_video_url: Optional[str] = Field(None, description="Path to generated annotated verification video")
+    proof_manifest: Optional[DigitalProofManifest] = None
     completed_at: Optional[datetime] = None
+
 
 
 class JobResponse(BaseModel):

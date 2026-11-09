@@ -1,9 +1,12 @@
 from datetime import datetime, timezone
+import os
 import uuid
 from typing import Dict, List, Optional
 from fastapi import APIRouter, BackgroundTasks, File, Form, HTTPException, UploadFile, status
+from fastapi.responses import FileResponse
 
 from app.schemas.job import (
+    DigitalProofManifest,
     JobCreate,
     JobListResponse,
     JobResponse,
@@ -261,6 +264,57 @@ async def get_job_video_metadata(job_id: str):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to read video metadata: {str(e)}",
         )
+
+
+@router.get(
+    "/{job_id}/proof",
+    response_model=DigitalProofManifest,
+    summary="Retrieve the cryptographic digital proof of an analysis job",
+)
+async def get_job_proof(job_id: str):
+    """
+    Returns the SHA-256 digital proof certificate for escrow and buyer verification.
+    """
+    if job_id not in jobs_db:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Job with ID '{job_id}' not found",
+        )
+    job = jobs_db[job_id]
+    if job.status != JobStatus.COMPLETED or not job.result or not job.result.proof_manifest:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Job '{job_id}' is not yet completed or has no digital proof.",
+        )
+    return job.result.proof_manifest
+
+
+@router.get(
+    "/{job_id}/annotated-video",
+    summary="Download or stream the annotated verification video",
+)
+async def get_annotated_video(job_id: str):
+    """
+    Serves the annotated MP4 video with bounding box overlays and watermarks.
+    """
+    if job_id not in jobs_db:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Job with ID '{job_id}' not found",
+        )
+    job = jobs_db[job_id]
+    if not job.result or not job.result.annotated_video_url:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Job '{job_id}' has not produced an annotated video.",
+        )
+    file_path = job.result.annotated_video_url
+    if not os.path.exists(file_path):
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Annotated video file is not available on disk.",
+        )
+    return FileResponse(file_path, media_type="video/mp4", filename=f"{job_id}_annotated.mp4")
 
 
 @router.delete(
