@@ -1,0 +1,74 @@
+server:
+  port: ${SERVER_PORT:8090}
+
+spring:
+  application:
+    name: realtime-service
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  health:
+    redis:
+      enabled: ${AQUATRADE_REALTIME_REDIS_ENABLED:false}
+
+aquatrade:
+  realtime:
+    allowed-origins:
+      - http://localhost:3000
+      - http://localhost:5173
+      - http://127.0.0.1:3000
+      - http://127.0.0.1:5173
+      - http://localhost:8090
+      - http://127.0.0.1:8090
+      - http://192.168.*:*
+      - http://172.16.*:*
+      - http://172.17.*:*
+      - http://172.18.*:*
+      - http://172.19.*:*
+      - http://172.20.*:*
+      - http://172.21.*:*
+      - http://172.22.*:*
+      - http://172.23.*:*
+      - http://172.24.*:*
+      - http://172.25.*:*
+      - http://172.26.*:*
+      - http://172.27.*:*
+      - http://172.28.*:*
+      - http://172.29.*:*
+      - http://172.30.*:*
+      - http://172.31.*:*
+      - http://10.*:*
+      - http://*.local:*
+    redis:
+      enabled: ${AQUATRADE_REALTIME_REDIS_ENABLED:false}
+      channel: ${AQUATRADE_REALTIME_CHANNEL:aquatrade.events}
+    security:
+      auth-enabled: ${AQUATRADE_REALTIME_AUTH_ENABLED:false}
+      subscription-guard-enabled: ${AQUATRADE_REALTIME_SUBSCRIPTION_GUARD_ENABLED:false}
+      jwt-secret: ${JWT_SECRET:}
+      user-id-claim: ${JWT_USER_ID_CLAIM:sub}
+      role-claim: ${JWT_ROLE_CLAIM:role}
+      roles-claim: ${JWT_ROLES_CLAIM:roles}
+    core:
+      access-check-enabled: ${AQUATRADE_REALTIME_CORE_ACCESS_ENABLED:false}
+      base-url: ${CORE_BACKEND_URL:http://localhost:8080}
+      internal-secret: ${INTERNAL_API_KEY:}
+
+logging:
+  level:
+    com.aquatrade.realtime: INFO

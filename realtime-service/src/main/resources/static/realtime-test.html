@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AquaTrade Realtime Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; max-width: 980px; }
+    label { display: block; margin-top: 12px; font-weight: 700; }
+    input, textarea, button { font: inherit; padding: 8px; }
+    input, textarea { width: 100%; box-sizing: border-box; }
+    button { margin-top: 12px; margin-right: 8px; cursor: pointer; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    #log { background: #111827; color: #d1d5db; padding: 12px; min-height: 320px; white-space: pre-wrap; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>AquaTrade Realtime Test</h1>
+
+  <div class="row">
+    <section>
+      <label for="wsUrl">WebSocket URL</label>
+      <input id="wsUrl" value="ws://localhost:8090/ws">
+
+      <label for="orderId">Order ID</label>
+      <input id="orderId" value="test-order-001">
+
+      <button id="connect">Connect and Subscribe</button>
+      <button id="disconnect">Disconnect</button>
+      <button id="clear">Clear Log</button>
+    </section>
+
+    <section>
+      <label for="eventBody">Dev Event Body</label>
+      <textarea id="eventBody" rows="9">{
+  "orderId": "test-order-001",
+  "proofId": "proof-001",
+  "proofRole": "SELLER",
+  "aiFishCount": 5050,
+  "healthScore": 92,
+  "qualityStatus": "NORMAL",
+  "message": "AI da dem xong"
+}</textarea>
+      <button id="sendAiDone">POST AI_COUNT_DONE</button>
+      <button id="sendStatus">POST ORDER_STATUS_CHANGED</button>
+    </section>
+  </div>
+
+  <h2>Log</h2>
+  <pre id="log"></pre>
+
+  <script>
+    let socket;
+
+    const log = (message, value) => {
+      const target = document.getElementById('log');
+      const line = value === undefined ? message : `${message} ${JSON.stringify(value, null, 2)}`;
+      target.textContent += `[${new Date().toISOString()}] ${line}\n`;
+      target.scrollTop = target.scrollHeight;
+    };
+
+    const frame = (command, headers = {}, body = '') => {
+      const headerText = Object.entries(headers)
+        .map(([key, value]) => `${key}:${value}`)
+        .join('\n');
+      return `${command}\n${headerText}\n\n${body}\0`;
+    };
+
+    const parseFrames = (data) => {
+      return data.split('\0').filter(Boolean).map((raw) => {
+        const [head, ...bodyParts] = raw.split('\n\n');
+        const lines = head.split('\n');
+        return { command: lines[0], headers: lines.slice(1), body: bodyParts.join('\n\n') };
+      });
+    };
+
+    document.getElementById('connect').onclick = () => {
+      const url = document.getElementById('wsUrl').value;
+      const orderId = document.getElementById('orderId').value;
+
+      socket = new WebSocket(url);
+      socket.onopen = () => {
+        log('socket open');
+        socket.send(frame('CONNECT', { 'accept-version': '1.2', 'heart-beat': '10000,10000' }));
+      };
+      socket.onmessage = (event) => {
+        for (const parsed of parseFrames(event.data)) {
+          log(`STOMP ${parsed.command}`, parsed.body ? JSON.parse(parsed.body) : parsed.headers);
+          if (parsed.command === 'CONNECTED') {
+            socket.send(frame('SUBSCRIBE', { id: 'sub-order', destination: `/topic/orders/${orderId}` }));
+            log(`subscribed /topic/orders/${orderId}`);
+          }
+        }
+      };
+      socket.onclose = () => log('socket closed');
+      socket.onerror = () => log('socket error');
+    };
+
+    document.getElementById('disconnect').onclick = () => {
+      if (socket) socket.close();
+    };
+
+    document.getElementById('clear').onclick = () => {
+      document.getElementById('log').textContent = '';
+    };
+
+    const postJson = async (url, body) => {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      const payload = await response.json();
+      log(`${response.status} ${url}`, payload);
+    };
+
+    document.getElementById('sendAiDone').onclick = async () => {
+      await postJson('/dev/events/ai-count-done', JSON.parse(document.getElementById('eventBody').value));
+    };
+
+    document.getElementById('sendStatus').onclick = async () => {
+      await postJson('/dev/events/order-status', {
+        orderId: document.getElementById('orderId').value,
+        previousStatus: 'COUNTING_AI',
+        newStatus: 'AI_VERIFIED',
+        message: 'AI da xac thuc so luong ca',
+      });
+    };
+  </script>
+</body>
+</html>
