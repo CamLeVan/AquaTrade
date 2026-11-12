@@ -1,0 +1,179 @@
+---
+description: AquaTrade AI — chuẩn cấu trúc & convention cho Flutter app (feature-first, widget dùng chung, theme token, role-aware). Áp dụng khi tạo/sửa bất kỳ file .dart nào trong flutter/aquatrade_app.
+alwaysApply: true
+---
+
+# AquaTrade AI — Flutter Structure Rules
+
+Đây là dự án sàn giao dịch thủy sản B2B (AI nhận diện chất lượng, đàm phán giá qua chat, ví nội bộ). Mọi code sinh ra PHẢI tuân thủ các quy tắc dưới đây. Nếu 1 yêu cầu mâu thuẫn với rule này, dừng lại và hỏi lại thay vì tự suy đoán.
+
+> **Trạng thái áp dụng (đọc trước):** Rule này mô tả cấu trúc ĐÍCH. Codebase hiện tại đang migrate dần (nhiều màn còn nằm trong `lib/screens/global_ai_trading/`, chưa có `go_router`/`RoleProvider`/`AppColors`). Khi render 1 màn mà foundation cần dùng (`core/theme`, `core/router`, `RoleProvider`, widget trong `lib/widgets/`) CHƯA tồn tại → tạo foundation đó trước theo đúng cấu trúc bên dưới, rồi mới render screen. KHÔNG render screen mới vào `global_ai_trading/`.
+
+---
+
+## 1. Vị trí đặt file — BẮT BUỘC theo Feature-first
+
+Không được tạo file .dart nằm phẳng trong `lib/screens/` hay bất kỳ thư mục "chứa tất cả" nào. Mọi screen/widget mới PHẢI đặt vào đúng feature tương ứng:
+
+```
+lib/features/<feature_name>/<ten_man_hinh>_screen.dart
+```
+
+### Hậu tố `_screen` vs `_view` (quy ước bắt buộc, tránh nhầm lẫn):
+
+| Hậu tố    | Dùng khi                                                                 | Ví dụ |
+| --------- | ----------------------------------------------------------------------- | ----- |
+| `_screen` | Màn hình **cấp route** — được push/điều hướng tới (có route riêng)       | `seller_register_info_screen.dart` (push từ nút) |
+| `_view`   | Mảnh UI **nhúng trong 1 screen khác** (nội dung 1 tab, 1 trạng thái) — KHÔNG có route riêng | `my_shop_view.dart`, `seller_intro_view.dart`, `seller_pending_view.dart` (render trong tab "Gian hàng của tôi" của `MarketScreen`) |
+
+Không đổi `_view` thành `_screen` chỉ để "cho đồng bộ": nếu 1 widget không được điều hướng tới bằng route thì gọi nó là `_screen` sẽ gây hiểu nhầm nó là 1 route.
+
+### Danh sách feature hợp lệ (CHỈ dùng đúng các tên này, không tự đặt tên tiếng Anh domain tài chính khác):
+
+| Feature folder      | Nội dung thuộc về đây                                                      |
+| ------------------- | -------------------------------------------------------------------------- |
+| `auth`              | Đăng nhập, đăng ký                                                         |
+| `onboarding`        | Onboarding lần đầu mở app (giới thiệu, chọn vai trò) — KHÁC seller_onboarding |
+| `dashboard`         | Trang chủ, tổng quan (role-aware Buyer/Seller)                             |
+| `market`            | Danh sách sản phẩm, chi tiết sản phẩm, xu hướng giá, tỷ giá/quy đổi nếu có |
+| `seller_onboarding` | Đăng ký người bán (3 bước), trạng thái chờ duyệt                           |
+| `ai_scan`           | Nhận diện AI sản phẩm (quét ảnh, chấm điểm chất lượng)                     |
+| `chat`              | Danh sách hội thoại, chat đàm phán giá                                     |
+| `cart`              | Giỏ hàng                                                                   |
+| `checkout`          | Xác nhận thanh toán, kết quả thành công/thất bại                           |
+| `orders`            | Lịch sử đơn mua, đơn bán, chi tiết đơn hàng                                |
+| `wallet`            | Ví, nạp tiền, rút tiền, kết quả giao dịch ví                               |
+| `account`           | Hồ sơ, cài đặt, KYC, liên hệ/hỗ trợ                                        |
+| `content`           | Feed tin tức, nội dung, bài đăng                                           |
+| `admin`             | Các màn quản trị hệ thống                                                  |
+
+### ❌ CẤM tuyệt đối các tên gọi sau (dấu vết template "AI Trading" cũ, sai domain nghiệp vụ):
+
+`trading/`, `exchange/`, `portfolio/`, `global_ai_trading/`, `social/`
+
+Nếu 1 yêu cầu nhắc đến "portfolio dashboard", "exchange screen" — đây là tên cũ, hãy map sang đúng feature ở bảng trên (`dashboard`, `market`) chứ không tạo folder mới theo tên đó.
+
+### State toàn cục (dùng ở nhiều feature) đặt tại `lib/shared_providers/`:
+
+`auth_session_provider.dart` (token, user hiện tại), `role_provider.dart` (xem mục 5), `cart_badge_provider.dart` (số lượng giỏ hàng ở top bar). Provider chỉ dùng trong 1 feature thì đặt ngay trong folder feature đó.
+
+---
+
+## 2. Widget dùng chung — BẮT BUỘC tái sử dụng, KHÔNG viết lại
+
+Trước khi viết bất kỳ AppBar, BottomNavigationBar, Button, Card nào — PHẢI kiểm tra `lib/widgets/` trước. Danh sách widget dùng chung bắt buộc phải dùng lại:
+
+| Widget                                             | File                                                   | Không được tự viết lại            |
+| -------------------------------------------------- | ------------------------------------------------------ | --------------------------------- |
+| Top App Bar (biến thể mặc định)                    | `lib/widgets/app_top_bar.dart` → `AppTopBar()`         | AppBar tự custom                  |
+| Top App Bar (sub-page, có nút back)                | `lib/widgets/app_top_bar.dart` → `AppTopBar.subPage()` | —                                 |
+| Bottom Navigation                                  | `lib/widgets/app_bottom_nav.dart` → `AppBottomNav()`   | BottomNavigationBar tự viết       |
+| Button (4 biến thể: primary / secondary / softTeal / ghost) | `lib/widgets/app_button.dart`                 | ElevatedButton/TextButton rải rác |
+| Card sản phẩm/thống kê/AI insight                  | `lib/widgets/app_card.dart`                            | Container + BoxDecoration tự chế  |
+| Chip trạng thái đơn hàng                           | `lib/widgets/status_chip.dart`                         | Container bo góc tự viết          |
+| Toggle 2 chế độ (VD Khám phá/Gian hàng của tôi)    | `lib/widgets/segmented_control.dart`                   | Row 2 button tự viết              |
+| Ô nhập liệu có label (form)                        | `lib/widgets/app_text_field.dart` → `AppTextField()`   | TextField + Container tự style    |
+| Empty state (giỏ hàng trống, chưa có gian hàng...) | `lib/widgets/empty_state.dart`                         | Column tự viết mỗi lần            |
+
+Nếu 1 widget dùng chung CHƯA tồn tại nhưng cần dùng ở ≥ 2 màn hình → tạo trong `lib/widgets/` trước, rồi import vào, không copy-paste code giữa các file.
+
+Nếu 1 file screen sắp vượt quá ~250 dòng → bắt buộc tách phần UI con thành widget riêng trong `lib/features/<feature>/widgets/`, không để 1 file 500+ dòng.
+
+---
+
+## 3. Màu sắc & Theme — CẤM hardcode
+
+❌ **Không được dùng:**
+
+```dart
+Colors.white, Colors.black87, Color(0xFF13ECC8), LinearGradient(colors: [Colors.teal, Colors.green])
+```
+
+✅ **Bắt buộc dùng:**
+
+```dart
+Theme.of(context).colorScheme.primary
+AppColors.primary          // nếu cần truy cập trực tiếp ngoài Theme
+AppColors.onSurfaceVariant
+```
+
+Toàn bộ token màu định nghĩa DUY NHẤT tại `lib/core/theme/app_colors.dart`, map đúng theo bảng màu Aqua Crystal (primary `#13ecc8`, surface `#f6f8f8`...). Nếu cần thêm màu mới không có trong token hiện tại — thêm vào `app_colors.dart` trước, không viết `Color(0xFF...)` trực tiếp trong screen.
+
+Spacing/khoảng cách cũng lấy từ `lib/core/theme/app_spacing.dart` (không viết `SizedBox(height: 17)` tùy tiện — dùng bội số chuẩn 4/8/12/16/24/32).
+
+---
+
+## 4. Điều hướng — BẮT BUỘC qua go_router, cấm Navigator.push trực tiếp
+
+❌ **Không được dùng trong screen:**
+
+```dart
+Navigator.push(context, MaterialPageRoute(builder: (_) => XScreen()));
+```
+
+✅ **Bắt buộc:**
+
+```dart
+context.push('/market/product/$productId');
+```
+
+Mọi route mới PHẢI đăng ký tập trung tại `lib/core/router/app_router.dart` trước khi dùng trong screen. Không tự tạo route ngầm bằng MaterialPageRoute rải rác.
+
+> **Giai đoạn migrate (trước Bước 3):** `go_router` chưa dựng nên tạm cho phép `Navigator.push`. MỌI chỗ dùng tạm PHẢI có marker để dọn 1 lượt sau này:
+> ```dart
+> // TODO(router): tạm dùng Navigator.push, sẽ chuyển sang go_router ở Bước 3.
+> Navigator.of(context).push(MaterialPageRoute(builder: (_) => const XScreen()));
+> ```
+> Khi làm Bước 3 chỉ cần `grep "TODO(router)"` là tìm ra hết, không sót.
+
+---
+
+## 5. Role-aware — 2 enum TÁCH BIỆT, đọc từ 1 nguồn duy nhất
+
+`RoleProvider` (`lib/shared_providers/role_provider.dart`) giữ **2 khái niệm riêng biệt**, KHÔNG gộp vào 1 field:
+
+| Khái niệm      | Enum                                       | Ý nghĩa |
+| -------------- | ------------------------------------------ | ------- |
+| `UserRole`     | `buyer` / `seller` / `admin`               | Loại tài khoản |
+| `SellerStatus` | `none` / `pending` / `active`              | Trạng thái hồ sơ đăng ký bán |
+
+Lý do tách: 1 user vẫn là `buyer` nhưng đang `SellerStatus.pending` cùng lúc — nếu nhồi `pending` vào `UserRole` thì 1 field cõng 2 khái niệm, sau này rối. **Cấm** thêm giá trị kiểu `pending` vào `UserRole`.
+
+Mọi logic ẩn/hiện theo vai trò PHẢI đọc qua getter của provider, không tự kiểm tra field khác hay gọi API rải rác:
+
+```dart
+context.watch<RoleProvider>().canSell     // SellerStatus.active
+context.watch<RoleProvider>().isPending   // SellerStatus.pending
+context.watch<RoleProvider>().isBuyerOnly // SellerStatus.none
+```
+
+Khi có `AuthSessionProvider` thật, `RoleProvider` đọc `UserRole`/`SellerStatus` từ session; hiện tại là bản đơn giản hoá cho preview nhưng ĐÃ đúng cấu trúc 2 enum.
+
+---
+
+## 6. Ngôn ngữ UI
+
+Toàn bộ text hiển thị cho người dùng dùng **tiếng Việt**, nhất quán xuyên suốt app (label, button, tiêu đề, thông báo lỗi). Không trộn Anh/Việt trong cùng 1 màn hình (VD không viết "Category" cạnh "Đơn mua" trong cùng UI).
+
+---
+
+## 7. Dữ liệu — không gọi API thẳng trong widget
+
+Screen/Widget KHÔNG được gọi `Dio`/`http` trực tiếp. Luồng bắt buộc:
+
+```
+Screen (UI) → Provider (state) → Repository (lib/data/repositories/) → ApiClient (lib/core/network/)
+```
+
+Model dữ liệu định nghĩa trong `lib/data/models/`, không định nghĩa struct/class dữ liệu ngay trong file UI.
+
+---
+
+## 8. Trước khi hoàn tất bất kỳ thay đổi nào
+
+- [ ] File đặt đúng `lib/features/<feature>/` (không nằm trong `global_ai_trading/`)
+- [ ] Không hardcode màu, không tạo widget trùng chức năng đã có sẵn
+- [ ] Route mới đã đăng ký trong `app_router.dart`
+- [ ] Text tiếng Việt, nhất quán
+- [ ] Nếu có logic phụ thuộc role → dùng `RoleProvider`, không tự viết điều kiện riêng
+- [ ] Chạy `flutter analyze` không phát sinh lỗi mới trước khi coi là hoàn tất

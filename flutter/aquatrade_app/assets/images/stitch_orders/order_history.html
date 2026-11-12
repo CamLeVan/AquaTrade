@@ -1,0 +1,315 @@
+<!DOCTYPE html><html class="light" lang="vi" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
+<title>Lịch sử đơn mua | AquaTrade AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#475569",
+                        "surface": "#f6f8f8",
+                        "error-container": "#fee2e2",
+                        "primary": "#13ecc8",
+                        "on-secondary-fixed-variant": "#0d5043",
+                        "secondary-fixed": "#b1efdd",
+                        "on-error-container": "#991b1b",
+                        "on-primary-container": "#006b59",
+                        "inverse-surface": "#10221f",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#0f172a",
+                        "primary-fixed": "#13ecc8",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#96d3c1",
+                        "on-primary-fixed-variant": "#005143",
+                        "primary-fixed-dim": "#00dfbd",
+                        "outline-variant": "#13ecc80d",
+                        "outline": "#13ecc81a",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f3fbf7",
+                        "error": "#ef4444",
+                        "surface-dim": "#d3dcd8",
+                        "on-tertiary-fixed": "#261a00",
+                        "surface-variant": "#ffffff",
+                        "on-tertiary-container": "#1e40af",
+                        "on-primary-fixed": "#00201a",
+                        "on-background": "#0f172a",
+                        "surface-tint": "#13ecc8",
+                        "secondary": "#334155",
+                        "tertiary-container": "#dbeafe",
+                        "tertiary": "#3b82f6",
+                        "tertiary-fixed-dim": "#f3bf46",
+                        "primary-container": "#13ecc81a",
+                        "surface-bright": "#ffffff",
+                        "on-secondary-fixed": "#00201a",
+                        "surface-container-highest": "#dce5e0",
+                        "secondary-container": "#f1f5f9",
+                        "surface-container": "#edf6f1",
+                        "on-primary": "#0a1a17",
+                        "surface-container-low": "#f0f4f4",
+                        "on-secondary-container": "#1e293b",
+                        "background": "#f6f8f8",
+                        "tertiary-fixed": "#ffdf9f",
+                        "on-tertiary-fixed-variant": "#5b4300",
+                        "inverse-primary": "#00dfbd",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-high": "#e1eae6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface min-h-screen pb-24">
+<!-- TopAppBar Variant 1B (Sub-page) -->
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/70 backdrop-blur-md border-b border-primary/10 flex items-center px-6 py-3">
+<button class="mr-4 active:opacity-80 transition-opacity">
+<span class="material-symbols-outlined text-primary text-[24px]">arrow_back</span>
+</button>
+<h1 class="font-headline font-semibold text-[18px] text-primary grow">LỊCH SỬ ĐƠN MUA</h1>
+<button class="active:opacity-80 transition-opacity">
+<span class="material-symbols-outlined text-primary text-[24px]">more_vert</span>
+</button>
+</header>
+<main class="pt-16 px-4">
+<!-- Filter Tabs (Segmented Control / Chips) -->
+<div class="flex overflow-x-auto gap-2 py-4 no-scrollbar sticky top-[52px] bg-surface/90 backdrop-blur-sm z-40">
+<button class="whitespace-nowrap px-4 py-2 rounded-lg bg-primary text-on-primary text-xs font-bold tracking-widest transition-all">TẤT CẢ</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-xs font-bold tracking-widest hover:bg-primary/10 transition-all">CHỜ THANH TOÁN</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-xs font-bold tracking-widest hover:bg-primary/10 transition-all">ĐANG GIAO</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-xs font-bold tracking-widest hover:bg-primary/10 transition-all">HOÀN THÀNH</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-xs font-bold tracking-widest hover:bg-primary/10 transition-all">ĐÃ HỦY</button>
+</div>
+<!-- AI Insight Card (Type 3C) -->
+<section class="mb-6">
+
+</section>
+<!-- Order List -->
+<div class="space-y-4">
+<!-- Order 1: Completed -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm border border-primary/5 transition-all duration-500 opacity-100 translate-y-0">
+<div class="flex justify-between items-center mb-4 border-b border-primary/5 pb-2">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A clinical, close-up photograph of a professional seafood wholesaler logo. The logo features minimalist blue and aqua wave motifs on a crisp white background. The lighting is bright and even, conveying a sense of premium quality and hygiene in a modern laboratory-like environment. The style is sharp, clean, and corporate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzspFHkivKsACwo7GE6EZGtrIWeKbjYAFx-6eWeFKbr-ayedbXUkLPUAZTjgVC17PdsdFQKWG8Ms0DPfM6s28WxKdOqPn3fn4kz9xJZmzqKl0fLcbsxGhC8x5vg4RMaIb4Snf19aw_tB76tv5GH8VJppgV6HKqr9CoSrpUtb08ym2A8dBnQMIu3dYoSgz6fYKFU6w1XJObC9ubXwh-e7pkurhHKGGF70XgL9gJuUrs_PxKdNyMBiy1">
+</div>
+<span class="text-sm font-bold text-on-surface">Vinh Sang Aqua Farm</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest text-primary uppercase bg-primary/10 px-2 py-1 rounded">HOÀN THÀNH</span>
+</div>
+<div class="flex gap-4 mb-4">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="A professional product shot of high-quality organic black tiger prawns, arranged artfully on a clinical white surface. The prawns have a glistening, fresh texture with deep blue and grey tones. The lighting is bright and airy, reflecting a clean and sterile laboratory environment. The composition is minimalist, emphasizing the premium quality of the seafood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrpnTx-NOUbn-3FOiUa-BfFh5wGvntRjz346oHUqw0nNtwZ6JwYN8ago5FJw8ZR41eWkLk16Gk1pz5wsDydng_9D7Wz0OyzEoi1eQrHF3HehOh9W12EtLs_kL56FbXm0_ODbNSC61-ITjM3UvHDwa5iOC_8foBxp8mBpRXXpJ7uUWun2_aVTXnqquVNS66WcfCM8OwofReYy8wmVY1SBM8n_cpMMUHxOLj6Zn6orEZ7zHDeXZY_x5j">
+</div>
+<div class="grow">
+<h4 class="text-sm font-semibold text-on-surface leading-tight">Tôm Sú Hữu Cơ - Loại 1 (30 con/kg)</h4>
+<p class="text-xs text-on-surface-variant mt-1">Phân loại: Cấp đông nhanh (IQF)</p>
+<div class="flex justify-between items-end mt-2">
+<span class="text-xs text-on-surface-variant">x2kg</span>
+<span class="text-sm font-bold text-on-surface">780.000₫</span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-primary/5 space-y-3">
+  <div class="flex justify-between items-center">
+    <span class="text-xs text-on-surface-variant">Tổng thanh toán:</span>
+    <span class="text-sm font-bold text-on-surface">1.560.000₫</span>
+  </div>
+  <div class="flex gap-2">
+    <button class="flex-1 flex items-center justify-center gap-1 px-2 py-2 rounded-lg text-[10px] font-bold tracking-widest text-primary bg-primary/5 active:scale-95 transition-all">
+      <span class="material-symbols-outlined text-[18px]">verified</span>
+      <span class="">BẰNG CHỨNG</span>
+    </button>
+    <button class="flex-1 bg-primary text-on-primary px-4 py-2 rounded-lg text-[10px] font-bold tracking-widest hover:opacity-90 active:scale-95 transition-all uppercase">
+      MUA LẠI
+    </button>
+  </div>
+</div>
+</div>
+<!-- Order 2: In Delivery -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm border border-primary/5 transition-all duration-500 opacity-100 translate-y-0">
+<div class="flex justify-between items-center mb-4 border-b border-primary/5 pb-2">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A minimalist logo for a specialized marine logistics company. The logo uses geometric shapes representing sails and water, rendered in a high-chroma cyan and deep oceanic teal palette. The background is a clean, cool white, reflecting a professional and high-tech maritime service identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtfQmmi-o_PSMnTlMfpoXBqmK6XQWrfrma5aLZMFgYURAKcAsNKOo4YXCHQpRzdS2X5JE6Ho-n7aOxCvzer4KzBMcnXKqKfJon6yr-n8ulYVt7louwgIsdnfBviThh3zOspyjZAVgWotImtNxEM052qpmw-KENRK8E0ygVu3jWDNAQwB2syrgP3e5k-1WH1txc40kiLJ5NILZpobp6CUMpPdHhI0XaIZ1qENYRMBh_XE-nzItyIJ_2">
+</div>
+<span class="text-sm font-bold text-on-surface">GreenFish</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest text-tertiary uppercase bg-tertiary/10 px-2 py-1 rounded">ĐANG GIAO</span>
+</div>
+<div class="flex gap-4 mb-4">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Professional studio photography of fresh sea bass fillets, vacuum-sealed in high-clarity packaging. The fillets are bright white with delicate pink highlights. The lighting is clinical and bright, casting soft shadows on a minimalist white table. The focus is sharp on the texture of the fish, conveying freshness and precision logistics." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGtkDmxzX6CkY9V14l2F79dlYceN7hgN5zwDDO_4sHrJAJyLHu_mo_-tuLip6rQ5VRdJgEvO9RTvYK-x6lzBKwwApXnxLjGF6GH7bSlIWiud9zFKlsThXOJAp0ii_ZqBnlLC3txk_4zBw2FD-HE-rka22dqYXBcKME1NvX-1R5Pk9zek7E5F0JXna6bnRAQZQGv5xCXYfwormHbnfkonoweTxGGEyuD8ADd4rsbwqsRego81-VXr4R">
+</div>
+<div class="grow">
+<h4 class="text-sm font-semibold text-on-surface leading-tight">Cá Chẽm Phi Lê Tươi (Khay 500g)</h4>
+<p class="text-xs text-on-surface-variant mt-1">Phân loại: Tươi sống - Giao nhanh</p>
+<div class="flex justify-between items-end mt-2">
+<span class="text-xs text-on-surface-variant">x1</span>
+<span class="text-sm font-bold text-on-surface">185.000₫</span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-primary/5 space-y-3">
+  <div class="flex justify-between items-center">
+    <span class="text-xs text-on-surface-variant">Tổng thanh toán:</span>
+    <span class="text-sm font-bold text-on-surface">215.000₫</span>
+  </div>
+  <div class="flex gap-2">
+    <button class="flex-1 flex items-center justify-center gap-1 px-2 py-2 rounded-lg text-[10px] font-bold tracking-widest text-primary bg-primary/5 active:scale-95 transition-all">
+      <span class="material-symbols-outlined text-[18px]">verified</span>
+      <span class="">BẰNG CHỨNG</span>
+    </button>
+    <button class="flex-1 bg-surface-container-high text-on-surface px-4 py-2 rounded-lg text-[10px] font-bold tracking-widest border border-primary/10 hover:bg-primary/5 active:scale-95 transition-all uppercase">
+      CHI TIẾT
+    </button>
+  </div>
+</div>
+</div>
+<!-- Order 3: Cancelled -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm border border-primary/5 opacity-80 transition-all duration-500 opacity-100 translate-y-0">
+<div class="flex justify-between items-center mb-4 border-b border-primary/5 pb-2">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Minimalist emblem for a sustainable fish hatchery, featuring a stylized fish icon within a circular aqua frame. The aesthetic is clean, professional, and reflects high-tech environmental commerce. High-contrast white and cyan colors dominate the small, crisp graphic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxxrFpTONiKwc7Nyp7d8XDBlvSH2nbGxHP98fSeXs27OlUHK64jffpYNJGFhg_ghXZo0whFgnKv5FmDOWQGkM5LauWuwm3LBf41oteddxFzB6NQeR52Bu9jdEb92SBNb1IZn6fms8DrJIOZqG7aKXFM_pHkKT3iQDT9ArYW-IpVJZ5EBtCv-FJYOh0Ral0Z1AcFH2xBxBZGVyxhBQg999adVa6v9Oxsr8LIEc0VT9Qe0ArtEiFqPW_">
+</div>
+<span class="text-sm font-bold text-on-surface">GreenWave Hatcheries</span>
+</div>
+<span class="text-[10px] font-bold tracking-widest text-error uppercase bg-error/10 px-2 py-1 rounded">ĐÃ HỦY</span>
+</div>
+<div class="flex gap-4 mb-4">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 grayscale">
+<img class="w-full h-full object-cover" data-alt="High-definition macro photography of premium salmon roe in a glass jar. The spheres are translucent orange, glistening under bright laboratory lighting. The background is a sterile, pure white. The image is captured with professional precision, highlighting the delicate quality of the product." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAg9ME1h2fq1akRkwrllnGJvqDnbo5iGP5i3lSt7aSvof5Wh3CGZ4C8p0gGtNHcH0cnVvmSFRR43PcU2FtUHpG9Axafk1E_FOvTi42m7fxS-tOex6owIIagOIBvOkI8hPgEbvjYClY_ZGLQY72BJxcoy31iA_Mun0RvQnhaQYwEs8kqadxSQkocWw7ZcaVCEmpOvadIvH7dmwMLWBCzH2GoFXk_FhKSiHYf-TT7pNBLeAVIu-KSn7SP">
+</div>
+<div class="grow">
+<h4 class="text-sm font-semibold text-on-surface leading-tight">Trứng Cá Hồi Cao Cấp (100g)</h4>
+<p class="text-xs text-on-surface-variant mt-1">Phân loại: Nhập khẩu Na Uy</p>
+<div class="flex justify-between items-end mt-2">
+<span class="text-xs text-on-surface-variant">x1</span>
+<span class="text-sm font-bold text-on-surface">450.000₫</span>
+</div>
+</div>
+</div>
+<div class="pt-3 border-t border-primary/5 space-y-3">
+  <div class="flex justify-between items-center">
+    <span class="text-xs text-on-surface-variant">Tổng thanh toán:</span>
+    <span class="text-sm font-bold text-on-surface">450.000₫</span>
+  </div>
+  <div class="flex gap-2">
+    <button class="flex-1 flex items-center justify-center gap-1 px-2 py-2 rounded-lg text-[10px] font-bold tracking-widest text-primary bg-primary/5 active:scale-95 transition-all">
+      <span class="material-symbols-outlined text-[18px]">verified</span>
+      <span class="">BẰNG CHỨNG</span>
+    </button>
+    <button class="flex-1 bg-surface-container-high text-on-surface px-4 py-2 rounded-lg text-[10px] font-bold tracking-widest border border-primary/10 hover:bg-primary/5 active:scale-95 transition-all uppercase">
+      CHI TIẾT
+    </button>
+  </div>
+</div>
+</div>
+</div>
+<!-- Empty state spacer -->
+<div class="py-12 flex flex-col items-center justify-center text-on-surface-variant opacity-40">
+<span class="material-symbols-outlined text-[48px]">receipt_long</span>
+<p class="text-xs font-bold tracking-widest mt-2">KHÔNG CÒN ĐƠN HÀNG NÀO KHÁC</p>
+</div>
+</main>
+<!-- BottomNavBar -->
+
+<script>
+        // Micro-interactions for tabs
+        const tabs = document.querySelectorAll('.no-scrollbar button');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => {
+                    t.classList.remove('bg-primary', 'text-on-primary');
+                    t.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+                });
+                tab.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+                tab.classList.add('bg-primary', 'text-on-primary');
+            });
+        });
+
+        // Simple scroll reveal for cards
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.bg-surface-container-lowest').forEach(card => {
+            card.classList.add('transition-all', 'duration-500', 'opacity-0', 'translate-y-4');
+            observer.observe(card);
+        });
+    </script>
+
+
+
+
+<nav class="fixed bottom-0 left-0 w-full bg-surface-bright border-t border-primary/10 shadow-2xl px-4 pb-6 pt-2 flex justify-between items-center z-50">
+  <a href="#" class="flex flex-col items-center gap-1 w-16 active:scale-95 transition-transform" data-nav="home">
+    <span class="material-symbols-outlined text-on-surface-variant">home</span>
+    <span class="text-[9px] font-bold uppercase tracking-tighter text-on-surface-variant">Trang chủ</span>
+  </a>
+  <a href="#" class="flex flex-col items-center gap-1 w-16 active:scale-95 transition-transform" data-nav="market">
+    <span class="material-symbols-outlined text-on-surface-variant">storefront</span>
+    <span class="text-[9px] font-bold uppercase tracking-tighter text-on-surface-variant">Chợ</span>
+  </a>
+  <div class="-mt-10" data-nav="ai-scan">
+    <button class="bg-primary text-on-primary w-14 h-14 rounded-full shadow-lg flex items-center justify-center active:scale-90 transition-transform ring-4 ring-background">
+      <span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">center_focus_strong</span>
+    </button>
+    <div class="text-center mt-1">
+      <span class="text-[9px] font-bold uppercase tracking-tighter text-primary">Quét AI</span>
+    </div>
+  </div>
+  <a href="#" class="flex flex-col items-center gap-1 w-16 active:scale-95 transition-transform relative" data-nav="chat">
+    <span class="material-symbols-outlined text-on-surface-variant">chat</span>
+    <span class="text-[9px] font-bold uppercase tracking-tighter text-on-surface-variant">Tin nhắn</span>
+  </a>
+  <a href="#" class="flex flex-col items-center gap-1 w-16 active:scale-95 transition-transform" data-nav="account">
+    <span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">person</span>
+    <span class="text-[9px] font-bold uppercase tracking-tighter text-primary">Tài khoản</span>
+  </a>
+</nav>
+
+</body></html>

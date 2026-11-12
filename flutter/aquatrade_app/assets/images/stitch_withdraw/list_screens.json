@@ -1,0 +1,882 @@
+{
+  "id": 2,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"screens\":[{\"name\":\"projects/3413517588105881645/screens/8bbe700d27114246a20c8fdff63765f7\",\"title\":\"Đăng Nhập - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/10958229514446579672\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtgixGccg40gNt1BIYSV5aCWu9o5c_8qwaUPUGO7cgnCNrFTFwjILPoAJKmbdNeLYlnjqg0Ixvv4LCZWLAhQVubkEviktPPcnkKuWtyDxwcbex2K3k73k_zdcFfCnW0f2E7gh3MpX2xO63rKopx2jb00yloRiRn7S3mg-kPCGWF_Mb60j8FDlWBagZCMqClQpsJ3OlKtJQdrw5PprMGCf-t1cZXrFy8vUOSiUnyefoLRe7VtDu8IDnFAA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/17409970923372116666\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjU4YWE5OTAwMWE2MzI5NDZkMThmOGYwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1890\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/ed99c02d85da43de9dc3512fb2157481\",\"title\":\"AI Product Identification\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/353c35a5bb1e47dd9b5f2942fc658e0f\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvQ4tAROkE6_yqpbpZu5aKICJX8iuZyHHS5LpwGMZ_F7Poza7mDxVTZbPSRY6_z-NwtXZbGv4blBEFxoGEPsrnY_eA7jJp2JMqZYLEX-pWQ_plKirnwNGVj4HnrLxTzwah5lPVUgXLVszhvwzh3Jp53Ylqx_IBlf-SOsVwQk3YOijOqcMilxy3NYx1qwrQhREUMAykROPWVbvbnqR8UKmwq30gOdS1nRjxjmcjQu02W8bI_AmgZ1PtaisE\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/16172235644197880446\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRiN2QzZmEwN2M0ZGMxZDRmMDc0ZTVhEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/682710da2aa6495a81331a7598522300\",\"title\":\"Liên Hệ & Cộng Đồng - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/08a017c473554aa18ba1bd711e066010\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLv12d1DRufq5FRhAzmhwlyBVWe9xUAQjRExKMK7qID0ZmkBXl4uYdqK6afU2ginlGHTtNKcXjDAFlM72jqZEmLNeK0LocsJeOSeWBlzbxfpdICF3HoFADqvIZpe1b1fnmw7fjvsE6vhlv44pfuBYp7yX8Yb4drSpnpQxCq3eo8ekWcphI1fXz9hJWNu-wlx0BvKr_rrvz1UA657I3SBVabjTu_oIbuc0a6MWkNAbh9OqXPImywdaLZDJKQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/9413444358905371591\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRhMThhODcwN2M0YzdlYmFhMDY5MThkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2950\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/0aac858206134d70adb9e8c5bdc5c0ac\",\"title\":\"Đăng tin & Cập nhật giá - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/7c97eaf76eb644a5abee6dc402ee443a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLt_eYsR6O8SYWaANUBZ0mARVoY2EgGbBtvxfV-4yK1gj3Swq_Voc1ZIxNCR76p0gpDo-UdMh16TtqukCGb_VWZ60nhklKI2xoWtNKZFxxdMImz-n9mbB_LNlixTGl7GxZ-5OIu2tnv8WjntBS6yB1E6YfRI2Z6PeuKlOmsiZpfzwFAAfOIz3TC13hwQrSNHRuveq1xYB7DeDoe7DEPE50IJYCVWl5jQgbgegbHTf29KiucmDuCkWIIMbo4\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/5785405751832780554\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRjYTk3YzYwNGVhYjdkNjBhMDRjMmFhEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/31a8de2ffe1a4dfc8ae778cec3c5365a\",\"title\":\"Lịch sử đơn mua - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/10154170011469963861\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLscsZZ_g7rP5vSWNR2kwRjCaOHNM0xB8EtpdNwM3f5o1Q31HnHUrBS8f2cZzeWtppKq0wPxd9VQ0Hqv11kEXpJGo_HcxC4rmq9ywVxzxwixSmbLiyunRID7_ekGjiMcbCvMF6B6b9nyLYLZjQurVDwnsyr-kcUtNTfK5LT4tcRRxZBLNj7winjJFJzQSRCe1aDPl7PhEJ3-Ou_tHxAqOzryq_XxND0IcQUFuXnX9xg7Zu8LcASD6Dj43A\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/10232897438545617902\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc4Mjc1ZGMyYTkwMjA3OTAzNWRhMDYzOGJkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2592\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/4013d29febb048a9a8161799482cb177\",\"title\":\"AquaTrade AI Login Screen\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/640a7d3643304a5ca04e9e5583fddf55\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvh8q7GwkVnqXY7jCzsL48TreZtiC8dMZhjSaHk0uBbqzaSabkuYWL0HwAFws1NDPeppirMW4LXmhG4VRNRa6SjtRWS3NTAb-p5ALXRlp57YmwOtpJDfZ2MKpFY0v1nuVbI7lXtGZt7xcJMxJAQoyDDmktNlqbFhtl4rUBDp5H2feOKVA1Rd4egU85rv5hQrXNwRp6GaxyJojbFTOrB-3KseR3VjavvtJ4CxmChTmZ1R4xAvUHrJoyBgA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/6727200693571844499\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQxOTIxZTQwN2M0YzdlYmFhMDY5MThkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/31a62c071ba04e24b7b633eaf9a0d858\",\"title\":\"Quản Lý Chợ - Admin Panel\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/8e871ffa859e463c81c05ec6d4aebd3c\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtyg6_vpfNgQsfaq1oN1ts4d1z0o-dSWZt6sQ1qENq9Fjwg-l4_I9z8jZi0cSszGWlw9QYTwZOx46-VyeMveSuFawV9-Hd53U9nyseZakuBtL1IYfR8Bbc_dF7UBmdm1CS3dlIMOzAYfGAD_sy62erxEzSn_L4dGnDOigNCZiHBvJ5EKiqXTjAoKXBrGsimIW0-o9NorESD1NYVhBM3u1kdK8zBqByRR9rHG6agXzmftYpZ7z5zWmMsyS8\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/10156673135792559045\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM1NjQyNTAwMzgzOGZkMDliMzFmNWMxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2624\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/8f4d06d640f7418cbdeca6ee7114afe8\",\"title\":\"Đặt hàng thành công (Hoàn thiện) - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/screens/8f4d06d640f7418cbdeca6ee7114afe8/fileEntries/screenshot\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuuEY2GFi5lP8DfPxBYDUdm1JLZQGfcCnqvEwmUKa1ofrUNFPoQ87bfc-b1XBX4yRGtIEsq25CErLjUZC7C0ncJLdctWQ9Bl6wwPYiCiYVV5mnEAsCMnfTFwZx_f1NQDCypsykb8R6WBYuzHlCW4bKi-_dkrMV1sD4yyo6VR9Q7VzfwJuI6aED7o9uVH-izJM5RPlCYHGKVVRkLQODhioF5Zr_gHhYiSWlD-rjz87godj_DpwtzObWc-_I\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/screens/8f4d06d640f7418cbdeca6ee7114afe8/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3NjU5Njg1M2YwMzM4NGU0NDVlMGIzYmM5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1768\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/6f60e6234bf34cb899c36c262fc1af56\",\"title\":\"Support Center - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/3856bdacafc8406c830af85d6803852d\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLt1GGtMfD7rpv7sLdWJvU2ZIMuUtlkyvZQp-7FiLzjCRA1z8R0d2E32Mqz8o9WVdyPKPfiz6JaCylZ6M8g04qvsse0SDx56ExSY22LiAJ8Us3ZwapGoPxFjVKHTLuJcpbyI8kAvBnbWYfwNuks9nzM1x8UtbZNG82khPQkeG70_5-DqcJ0BmKQJ0tcO2R3HviOcn6VHR59prhsWgFcUtuJF1Hh_OUVni60vzBuXfqfPCrzfoSlGPJU4LhQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/13583238898998630761\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ3YjEzOTEwOTI1Yzc4Mjc3M2I1MGUyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/e7d9b0e2dd114569996bf43e82c4aa56\",\"title\":\"Chi Tiết Sản Phẩm - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/a03d24ecab5b4dc1a8d72055a2ffbd5d\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuuKbt9ZXkCU6fU4AdB5u-3ByTSbQY3MAtYQOyZTHwz8O0cZKJ3UbjTHem4hhWhnghDefMKkL2C-7miHDHSLWnNozTE7YHfEyGmNfDbzxB4ldYRnZXLtLqaT-VXbZ2nD5iVCCgTcQiGe-j9O0aK-Xlh6mRhluc0MIH3vd67e5OlewXM4H0vpuik9LX__xMzU23CX2IFSGAyZi3nWD0a3IMa6wx71eb3bZIR1sKwDTtOaCQCu7ihkIftAHQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/8982859222766069469\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjU0MGJmYzIwOTI1YzdkNGY2MWFmZGZjEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3252\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/65a554afdaa141e2af89d7c559246df1\",\"title\":\"Quản lý Người dùng - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/44536681906d40ae8609af1641bc08dd\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuoxvx_PJw6YGkM239MbnY6TaGS6euLY_Dpk3PSJnVCIc7NesNv81pTj5dkPeyC8e4jjym653QbzMWSwDokfEOI032IjrCiHWffcndSGKwID892d1xtbkwFZlht1Zg3AidSuIJB-MozLyVqvSmsBqISL2MyAxGjR3143NIxbk--5YOb0U-GijySgS2meyDNrLT4QE120lkwAC58gwudnd3kQraJgYm748gXtRL4zhu9Ydt5hbJuGtjuzQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/15594524483541614306\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRkNTBmYjEwMDMwMzVkMmFmMWY1ZGVlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/e90aa7d64caf4b359adce21f9ef01d9f\",\"title\":\"Chi Tiết Sản Phẩm - AquaTrade AI Mobile (Optimized)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/614727707848812490\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtKmO4WDCIyZrd4yoop9VEKRRorhpG9V37jehbcDSl00doxTA3KWlzG5D_nCrQt7dDkrr4Ji320TioYGNdE0JXcVKSonTrvJiE7XktpAmFs0_J0VhOor7ZPnLqSINYjR-5y4iMi9twiuVeDt3VYTYJAI7JAklsue-WWiAp2dNvUVOZK_W55tkF1VBrxLibq8n1Pavs2z-GbIRmccga8rJV4BKGCujZ7oUBlYCoULj5ZbZXBPxOhLFawDCc\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/16089391549623213763\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjY3NjY1OWQwMDMwMzU5MzRhMTdiZjcwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2510\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/8d51af79693f4fd3ad6e1b35890dbdf4\",\"title\":\"Chợ Thủy Sản - Marketplace Mobile (VN)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/8345015314204287755\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvN1yTnJjcjtkLrKnKaNQxmCq4E9sNtFKm4jZBE728VFtbPR6lDPMrfu_qTl5b7_0jOhrUisOm33xBHhsDqYiOiK1PdUWTbS4VdVVUy2ZZI2YbwmGtky5vyda6D4YDEMgGh9yYhpKJOfKxoe7dexEtFFaCBSU5tIFjOPSQrbUbGQhBAhgYA4OGXF0gQQFLDmPwfQHe2lgvPhatqPP44X4p6ptCTiVczjreqTIFq5OJ9uOE1npAbdpIoTec\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/15309923141320202037\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjNjOTU5ZDkwNTNiNzViZDE5MTRkN2YwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2668\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/67aec7d701334c6fb335951f91d3cb9c\",\"title\":\"Tạo Bài Viết Mới - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/a9e41f9c13b94f7e8d8b1c17532ea453\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuNRXw3t3U7ejz2Vtu2bGgMLDMnRzMmCjGwuUFJhBAbGA-CBo_YK4pmt4vJECHig6AwNFFMoS8waI7osQ8hlCiAFn8BFggbf_EqJ0a0bebCbiwThuBGvv5lrRVix27PC0vWZWhg9Pq1qNUnzjOhMWfrb9EQ0KX66L4OixdRM_XnCBfPUznv_0dhpHwI2pIejyZ2zUD94kOqF8h6P_E_suV_AoswOoOYvHvwtlFuxbsYvjbYzvCWkJ1x78c\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/14339386994947223650\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjUxNzJkMjcwOTI1ZDFiOWRlMjFmNDBlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/28cad2b5b64e42478a9f78ec643838f4\",\"title\":\"Đăng Ký Gian Hàng - AquaTrade AI (Optimized)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/2718453042401482878\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsywxtoCwnxEDcoxnWdsbdBKH5jSTvTPf41CdR8_mgdZcos0odkLp4QQDpt9G3xIc75r6lFabBSS7RSQsB-OSFqlGguKQiAQkGs4BCbXez6jEjTrWVfTcuBdtqp1ulKav4jKG8uigNsQyI-4T4D4WsqGw7wTaBUTPAHMws_3f8jL2bb0734a7mpOd3R5cdWucI6kVw6GLTFGesVLPFSicT23cdHg_mIo9rFziqA21LvkUvrJOQP74HRDn4\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/14811916628911426172\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjNhOTk4ZjEwNjM5NTY0NDNhM2JmYzFjEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1768\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/a064e290d492465a8997feaf490454da\",\"title\":\"Xác nhận thanh toán (Chuẩn hóa) - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/8058343059472400420\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLs_K2q4ffw-158MCwfq9_fxXjb0W_klni3l0AMH4c_gg9QRQz4PCSsd2-M5LcRGchQCMhSXlom-iWZQBFb-P_NRDRKqLVq4Y75te0z_QIEy64WSM09Qu9dOJ141kWjZaFtoHNueXDpKpwMeOPPqMH5LVtY-jcM4IXsmcC6pwIlhpLtky76y9O6zstrVV72nOdj9Go9OrQaF6lk98X8vUQ2KkocKy-7sIxz_li_DK4noRxl1_FhC4Dr1gg4\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/7918612451145454341\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3MTFlZGY2NzYwMzM4NWJjOTY2MzU4OWYwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2826\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/079b9642664341548fcbfb18a41d380a\",\"title\":\"Giỏ hàng - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/13458185600241359218\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvP5sPoBdNt1sX2KXS9fvnnW3l5gw6KkQxb3jRh0TwC_CSkIcnpNaM_-4sX2ujCI0b2InkzLYBpMkeKpr9DXB05nmj2oW71ZucKUbUIa7osVKHx2_wa9Pc9xRbWjoWbHH6gYUTpPkV-qr2JE9bQkaNpH1xHcHAOlcxHjgObG1dmPpQyXDcCRplDiBd-oReQGI70mcA9LuSRod7e3bg976hQkO8GY7gnQdD7mAt2tU23d6I3zpc-v6BnpA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/9187177483544946423\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjZkM2Y5MDI0ODIwMzgzOWJiMjFkMjZhNTMzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1906\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/f3a1e3731dab4710b22c585d78fcefed\",\"title\":\"Đăng Ký Tài Khoản - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/a3d8ba3d2ff9405782cd276c96f48772\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsSUICs0RTJxCVLnuMCuoJsST4blYuhTZ4JBrobFQSdXDaC2hi_2xGXfrHTYsovlxUhM_ORqVlGZ7R0P_zegoyg6Si40frTtGunqEh8B6iyurkhz0amNvF375A-r_qdYU2TtqVl5CkjS9oaZICNhbxTXLwSqwhuBypVjPiIt19WBCJMZndwJYXby2V4rjpgbwlKga3quCnbG8AbD9HdAhAttBQKSBM76bPs42gRdU37mAQ-Dq_n3Fn3QzQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/18168277596049790268\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQzNDBkYjIwODlhZjVhZDE2MTYxZWJlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2306\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/4df23ee53298479ab028e0358ea6a3c2\",\"title\":\"Quản Lý Hàng Tồn Kho - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/6f18f3edb30b4f0b8c5f75d1b26ad2b2\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLu-VMiAk1Lc8eg7CpljQiTqi5_sZueXdLmod7P23HXYPLFg9hCeCKmx5peIS2sIlwLiea_J2Xe-DSAeFwXXnNysoDM1ysWuGGirq9MeDaAZkVEf3vahoTFvOXgav9kM_LuluZTr4IDh39kKiGu4N2GJqtLnwQmV9IClNmrA7g8auPDszGBOknJmjGAbCGsHCt8mNSZVgaw8PkAEfP4C-k1eTMIWz5a-HV2BqlZZoHCHRHP_WfIObjB7mw\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/8587637364730363574\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjNlMzEwYTIwNzc5YTQ1N2E5MGVjYzgyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/4e45814247ad43cca85c979ec414c23f\",\"title\":\"Đăng ký Người bán - Bước 3: Cam kết\",\"screenshot\":{\"name\":\"projects/3413517588105881645/screens/4e45814247ad43cca85c979ec414c23f/fileEntries/screenshot\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuwS3vxVeYNjnx_P1ANXo-UEhDugNxuZuENO_2pgl_yV0ce8BNxxNaP5chsJYLyCJq_vet7sxdgryKRrxU85UDimmkKTNxRgWumaoKQgIARj6lOCxukHDg_bwZl1FOjP7SI-N5bRGVhav2nMtH7y3EFNppOATjtPDNwoDFwbq1Qeg1auEyKb2nEJdyaFkZsYSQglwiNrMsrq-hR2yXfLttfMgIkcBmokP9z5xXdlgMcDEIRhJ-ymf_lQN8\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/screens/4e45814247ad43cca85c979ec414c23f/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4ZmU2MzQ2NDIwMjA3YTM1ZWNmMjYzZDY2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2910\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/da6513ad2a214e1b9ad24410c2df3662\",\"title\":\"Thanh Toán Đơn Hàng - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/4ab64f562fc344d7bf6492747e7e99c2\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvPiEUbbjKxVP51O6FdAc5YC6KvlxSv8wmYJ8gpnFPZy27uzxCs7XZoB0_1enRJwNP5V8BA9S1y4SFIlCdMXC6DWlVBb7Mo4bgvsxvLe63Qs-eIn1WMDvhhOmN1niH1ndVpM_Gj-XzkCgKUOMU5owbsmnnUlMFiBP8RlFOAESL8VrVuoToRSW34x0U9aY-au2TkUW7LvAl0FJ9gP8NjdqssIBx16mvg9GsX_jpYYbX2SlXI9pO6l0QJXIA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/12875877314509251522\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM3ZDdlNTYwMDMwMzU5MzRhMTdiZjcwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/14a9fa0e6ccb48788a959553662a6a5e\",\"title\":\"AI Analytics - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/464cc2ce16bc410aacbf276fb888209f\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLse9XyP_T3-smSM-IlJZRp8F9T5I4I1_Audsis_pJ-ryEQ2PHvl61hO7lMLY-rBYEL9gsX4trgCsXIskz1Rjer5jVnCAZYdWTPYTE00ZgA1yBmpnv9NPkqviSEtfKiCPPWKYb9bAJZvjGhMitp16igdyoxboBKnBOsKBICRq0D7ua7sMFCIo8xCxlgrXPTxwWyJFUhSLpQSjzwClSK-WTPR63DzXJfJa5Bo_MbiVptpcBVKBL__5cTbFdU\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/18237074760832703194\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM2NjFkYTUwOTI1Yzc4Mjc3M2I1MGUyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/cdad184486284e1bb5a90c237356891d\",\"title\":\"Trạng thái: Đang chờ duyệt - AquaTrade AI Mobile (Final)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/13026351376256315073\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtVZMmy7_RU5569UKWrUdin1_XnXUEVBlZeuvsw3RV87t69SW7gChn6S4p5fgBB6xD8qUGoXFT1_ePiDWlkb4C34xniO90aloFp5l8h9cBTJOVhLaFEaDwp9qYA8DR2QLC5pBGPKWNtROk93YnkcJCZ9A8iVxfUU5b8MsgQwnVorFQCSbIVWdvX3Qyk6tMQeT6N7-1rCzhoBrajLL7KZ0hQPqnHM1H_JQfGjY9B21Z7qNujwxOfEtjoaG8\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/15092166474351180046\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjZjYjk3MjkyNTgwMmE5YjRiN2RkMTA3Mjc4EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2478\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/78f06a199acc4b338f1c93fadb11c270\",\"title\":\"Lỗi hệ thống/Hết hàng - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/screens/78f06a199acc4b338f1c93fadb11c270/fileEntries/screenshot\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLu2P2L2Nc8KnFzwibGz6J9ldMgxfjyyXwPCvPB04cZPqSoIR21sqAmToVxiRrOxW0LPoLCS4JoxyWhea-5QgxC0guKQTOxvmtGomPHyLovv1FGzR44C_U_zKMR02HHBVh5caktfiPdCtwRDh2Rs0GsRBKCcIj_TC47hlRj4iAauwqtdb480W6dPiP3Q-1YP1ijNthzMVHvfGwdfqbUlDDZ_cN8dFFNQkhrKdRrfESGUDKZXUFpMRHZAawM\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/screens/78f06a199acc4b338f1c93fadb11c270/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3NDA2ODVjNzkwMzgzOWJiMjFkMjZhNTMzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2150\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/6aed3f61750f41dda7dc98e0c1b6edb8\",\"title\":\"Đăng Ký Tài Khoản - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/14935804873023740100\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuz_XHkScsSp-nL0wmNhrZrioI-SwsCypyjQr_ocAL-jIiCU079FtiC8JYzLzvnFC4AuWCIHjCldCPeGe6fStnEI_0zhQ9wqM7QEqkqzGNOyi8gT_SGdNdmM4rsjY1eRJobLP0UqteIjvoCOlvCWZ6ARJHm5KNbhz62ys195l_zmUpX4-9bLVD3UwYd2htZP_iQqurpnQ7EUOzmUOEvBgP_oxpHAFYfMfTomIGMbKVx18J3P6zwiJQATdo\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/7143219992943078971\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjU5ZDY5YjYwOTI1ZDRiMDFjMThlNGNkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2294\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/eb8ed416a4d4419281a7f1ca4f96a36a\",\"title\":\"Đăng ký Người bán - Bước 1: Thông tin (Mobile Optimized)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/14518856697832047368\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtLEacpS9rQ9tuK1puz1ppkfSuMXsDIuxyoBIJZipXskxccaV9KyOTLCdW0VD1M_63kN_6xhhKsMmK2XWaRY4hmwpr69oP5WSbT8ts96yvBNbiQXd8ZPP9-p5CFpfM6_cMZgcUAkV4Dlv1YIGBxkjm-ismvIveAsLb0tBX6OeNeXmOguWiQWAknwSt3lUX1H40Y5nZNpmjak1NErrRl1r7atd4OOgpvbpigw4KjFc_4bFH3VGY4hVHKTBk\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/8213695774856164456\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjMwM2NhZjllMmMwMjA3YTI4MjM3MzlhYzA4EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2976\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/64182e1020164f41bea96e9c97ffbef1\",\"title\":\"Quản Trị Hệ Thống - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/db5e515e6dab4dcb99ff41052b4e19cd\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLu8WZqFt15rzvlJDNs4ARRDjV0EaJo90y0khaDck_wJQgtTUTB-h1xizQ-ddWc-7pgyDRwL3ZCOrmYNhb-p5zBZrYSy8dK41llvR0wbtj8Y3rm0W8zZfyfyznSd46RpWeD8s_dpMFdXmwYkWoFlNSWeNPxk-GugwkIIkBiRjv7wd3aWST431khgRVlNn6yCWGwW60qnWVt6sNkMMvtiU7Tu9qqI2GOfuieU5Ym4iPPlokpEdChzBeJutOc\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/1908605360277085433\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQwYmI2Y2MwOTI1Yzc4Mjc3M2I1MGUyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2628\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/87652336f555424980badc4e79b73fd7\",\"title\":\"Quản Lý & Đăng Tải Nội Dung - Admin\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/c430cf3bbbad44d189500096f2787041\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtGtqG5cZsa5QFERx_s-k_H9WkdkVV3QZGrVP8xbSI4vmlDzSbEc1Xsp3Risp0PCfpujziSAXHl96ZvD41UGG0FmL_wd7xlSdpi0T1kNGaSQAMYPQjUVlS3DOeQZyUiJAJWQ4Azo7VJFUTa9vvLy0fRWWT7R54PBeH4KOR6lfXnoBAUJfHvuZOvhfe_ZXrIYN60oQx888OOl3bJxrs7JqPyP-x1PcwVN_Jv-xG5_6SHQxOzGuejXgxZs0s\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/17167717390817719912\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQzZGMwMTUwMzMyZjYyZjE5MDIwMjA5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/dfce1933af8e48499fb9e3434aebc9d6\",\"title\":\"Order History & Evidence\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/22328a14a38e4008afe01ff17bb3627b\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLveyYSl30J-ZGiy_b8z0x47pNXkFmESQ4-r134lCfhlSQSVbgukRFkQ6ALQAviKTB_33Bpv_0nalAuTYi_9qauu9M0pgHOkcYqtm2YA795wofSpYLgm7MZm0o8alfRIDDM2O9albs1mrRZuue3qEyI-e0dImnF2FknSRh8E2x-oO8StY9SJ24nE-AaOE3nWYiBFeVBtkPaJyZeDh4lKP6Hf0QV2Lh-Ob0fj4dLURGqVWaViKVEh_mMYN74\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/14979762241659586702\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ4NWM2YmIwMzgzOGZkMDliMzFmNWMxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2252\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/62f94efe579742aeabe005f212ce9be6\",\"title\":\"Cài Đặt Hệ Thống - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/f58e67a882ab4cc5a38da5779cbb9645\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLscV_l--GbbBPs9RcRnJKtGPTVcFYy0rj92aV5FvDEK9PnJcLPB1rXH61jJqnvj5r-VTOFSr0_Za7SNhfeObdqLMfdfRW_eH3NawFeJnoUdlEw5FBUKdbywB2y6clqHTIcZ_BrdqLfpKROako2HRh8cPckYvgriLxoIjzzdQVZNQamMHE7K-IOMGcNfR8W0VillyvzFO8oXUVUo98HJuIS0KJHigzZ6mAtKylASU8vrFZGJx82qOAv-Lg\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/6935317589757513235\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ5Mzg5NDYwOTI1YzdkNGY2MWFmZGZjEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"4414\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/199244f6892b427fb8caa5a69eed062f\",\"title\":\"AquaTrade AI Main Dashboard\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/93ed73b77f2847119e693d0c1af8d722\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLumAg7xvSKmowknom6yyp4I3YKTUcQjXBNZ6M2e0N8W1zRZqi23kRarAHRW5qoW6sTw07A_A2ZhESV-0mvuPfmfNVwApBKQNRa1nsf7rfpO6L-AsGNbnmshU-sa8k9_Y42uE3F0FD_9qvspZYmGG-PMHSYQNcKPa0bjMTiYVVuVtVDaeEQwx6OYfKQbuUSU0-NIjDBilIYCSCUXEV6JNSXoXqmQnlks8tJNE7TPRqljmGqRwFVyLYZ3zSc\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/5702872095174472448\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjNlZjQwZTYwNmZmYzkxZDhmMDhkZGM1EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/57ff91d802594147b59269c8e05a1d1f\",\"title\":\"Ví AquaTrade - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/11044952236182553603\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvLxwAH6t3nkI-NNZ4U-lrhz4X8dZ1adHAeih-5vcKH3Gu16bZVNITLSTLOXNzicbB5bAGMzYdNVJXlQVGMWQyL2dheXzwtAfL0L4YmY5C8FFRsu88iZyMwBox4efY2KUbS1sDBfMcCRjoFNveSVz5pl6dKAYdniv45v5xAcPma_cGFd8C1yw9BBejC5yQxQK73IBsgb2zXP18Omhj2zI8O_kRx24E1BWkRuiLUbKgG-tQGKkYAJBxNRw\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/4781228575422048952\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjY4MDgwMzc1MjUwMjA3YWM5MTdhMmMwODQ0EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1922\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/51ec694ddd5e47619243ae8481a85d02\",\"title\":\"AquaTrade AI Main Dashboard\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/e080fb1b1e4946a1a6d6b67f37fe3e3a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLt782a7PmPsSLH6i1hdho9tiQ_SXWhuo6MsYq7OEEZoT7qwSNYflegGmXfpPWwV2aI8pFV77t5n9nnBaSHYFbAznwzfLFXbwqrhp2iN-ocGEWGMeo1qy3azZWh-wsQcgzXtIsvEG2jRqS-GHQh3_W-bBdmoQ10_9aihpjsrCrDv_4eQIrN8BE8RnOMghyoH_QGTMhQfof84PuPJj1ZYZQr1WRZRJZ591JwuorC0_YYqxJnMsn7hPcQ7KyA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/13121985418517964785\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjNkYjIwNTQwMWE2MDk1ZDJkM2JjODlmEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"4814\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/9e253cc192844a25ad91ecbaa1f2f615\",\"title\":\"Dashboard - AquaTrade AI Mobile (VN)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/11531111241418045590\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsvDC3VCPVjDEgRCDQpA67nCLxChFEs20jlO4yQXbWYa_EHgebC6QOBOCCnKC2Q4xVC-M8LLk7ns7GNIj13EXbf8fu5OD4c_2ev94kBf6f-K_LT-0z6UYPsVVgFFtR8O3eEakjkfimwHvKW7O4HDDNSYXJnzb7MFgvaydgcJJmkgRz0v5bRzdCkPmpDZcBWu2HYMyLPmDDFSu1nKdAKzQRyOI--dEejwja_9jFWQ1Efz0EB5omnPjAyNlM\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/14305287723126828580\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjNiN2QwYmUwN2M0ZGMxZDRmMDc0ZTVhEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"3926\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/1e82108e1b7c4eabb5b7e4442d361813\",\"title\":\"Chi Tiết Trạng Thái Đơn Hàng - AquaTrade AI Mobile (Standardized)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/17011567918743713463\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtS2Ffu9UPmclO5bdnmioxeoJrYEZZlOT4n-nHznOAL0IVWf-_YmvFXWDUZGBYF29q74ppwC30kN-PuxCRj0L22wERB2aJhNm5mPSMJfcgoMqHWnz8tvGca7j3vzQtvG34h4H5yFY1wrOF4LFPV7DFfMi3FiN2xW_x2JSBYxIiyasKg-fAEPBBDA5bP-KwJbhAsXGZp2tnqE6LhZO4UM8WZRyRZoSVtCBccpUqFuyTZKtB5HY2-PhUjx0I\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/9944794574289907535\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc4MTdmNWNhN2UwNzc5YmRjYWE2MDY0NzViEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2840\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/9dfc50a7a2674891b1b35c577f503c61\",\"title\":\"Lỗi thanh toán (Thiếu số dư) - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/1887551230123070300\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtmP2rVy2lqM7H-OmfWUE51ooZa9dddVfFuX-uWiBMmd_yCT4ARxwLPYriXtCrJk4pH3tv7kSroQGfwI_CjxP22vPMzQcWIvlE0AM9iNm8pKKHmURR8l1X07cwqRC4U8dTs18qa1ZyUNT5BX40oNS3QiJRlpAllsJRUrx1NCnqHBiE8N75foMWUmNSs2pPMLpnBdzCS9jZuHDXVKjszelHdjqBRtLSIH-GBy6tsOgQmom4hHk39UzCooQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/3141281958550753241\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3N2UwZDlkYzcwN2M0ZGQxYzNlMTJmNWExEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1910\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/39f058335cc549bb89737620cf3593fc\",\"title\":\"Nạp tiền thành công - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/10867689668240926320\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvvUtvWu2qtE7x_1QKf_xbJ3Km2CQOJjuu672cDRQg6AWystsLf8qpIQLNM4K02f9bDhUXC4WSbym5SM2tPSlSFlVrqQRdL47w4rUuEfyP8A5XPlwBYvG2mwayzFSsbjm2B1FllzpKCil93M9d7i0bn3X-Vcq4O1ZxGNjCEVA7SOJh5eDED7WO5LlbT-JJCsPOGi_7eKxW1du7gA03Frzwf74TNn-liirXpxgycZt4TcrtwKY2Bl_VpXrk\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/6977877709800082222\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjdlNzMxODc3OWQwMzgzOWJiMjFkMjZhNTMzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1950\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/69e270e226d54c3486c5259a147a2198\",\"title\":\"Product Analysis & Negotiation Chat\",\"screenshot\":{},\"htmlCode\":{\"name\":\"projects/3413517588105881645/screens/69e270e226d54c3486c5259a147a2198/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjE1MzQyZGJjNjMwMDMwMzFkMTJkMzliMGZlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"390\",\"height\":\"884\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/69a55488d4bb4d7d8e617ee6195e6922\",\"title\":\"Nạp Tiền Vào Ví (Chuẩn hóa Màu sắc) - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/screens/69a55488d4bb4d7d8e617ee6195e6922/fileEntries/screenshot\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLs3BI5gUTRKnThRiEVxvA4geRlOClvxWAXr4HafWsi5OepMP5S4jBM-cmzMvl4SB653Xa0toS6SPgedyg82hAXsrPPLDJnTpTkHEOgdpgF_iVGbXUCV0ALKnK80IAUP2IFwa8JYTgiWrSEHp77p3wFFtY_lKvZmKw1d7k1ZurWYQt4Bp-Y9edoZOlCTNLzb2Re76q-4bCwT6gkpjs91RwHkVhwq37_0lkqJoa1OSvEvZC1hoglsrZaQWQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/screens/69a55488d4bb4d7d8e617ee6195e6922/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjdkNzhhNjM5MjgwN2UwMGU2NDY1MmM3ODg2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2646\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/d315db236b58447d9766b5e162efa81b\",\"title\":\"Tài Khoản - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/2229643047665160576\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsBBLFGWgtlBJw_qw0BLVpOoC4N0_qqHTIgudhCSP0rDT92aFYwlf5xnYfRqDOx61muMiwq1v74hLwsysIFptGg4ncN-PGTWV4GZD-E28fQa0cEOWBuNPF2gzZAHNb2b7E9AKEsf_1l0jt-W3obVaJDC77-E33jKs3ZB8wmO9bpdnIQ0MmkZSHqDZdcs5vdaJzpWNrHDKMAW5yNFUUuGYalikxR7kkcCRFhOZPzGPPPcNYtuNKYtqq9Tk4\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/10036781275662934569\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiNTZjOTJhNzgwN2M0Y2JkMmViMTJlYjk3EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2118\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/e8bba1061b0a4d839762e32cb1a1badf\",\"title\":\"Thị Trường Giá Thủy Sản\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/c67aac64f152446a873b67b3133425d7\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLt7nzCuGdo_OmVqvocfWlq2sw_UNpQ5K-MElbGeLi11Uc-HMyMFK43kRjEIHzsq8FTMQtHfsXoXi-8hNfIPXk90eE4H0KQG78BbfxWu4zcpQVRvfrYoubZMzMN9yfnBzO26EzeHOy6H6QtxHPbOWCMd15l8HET9avXFoz1XQxupHMWXNCqJu-vWAV-6J6KU155ZNy8fCci2DItoKaaPNbjFcYpiCe4TQq34HOZOEm88exdV4KBNtYsR21A\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/14145030639442581234\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjVlNTI1YTQwMDMwMzUxZWU2MThlNmQ2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3862\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/17cee6ad718542e3a078c8702f8913d1\",\"title\":\"Đăng ký Người bán - Bước 2: Xác thực (Mobile Optimized)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/14520266406000745611\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLubBGHElyWZgHIaPUUbgalti9bi0g5xTQyiownJwD3cHWkOZjWHsfwqJ4TW7mElMUQ9iRG1Xf0y6KRe3N-GUb6zYswLoFJjTECFS6yFijaHzPXkpu7EduWyHM2FaOdut9t8rmrrmrNTaVOhS-boUtI0Cuq9UE9Geodp5QU7IvaHH2N9-QLpJOi8N2nCUlVdD2GTfZX_buelt2M1d1QY1PaeuXyBAI6pe7WttQHMb6uA4dRH7V77Zo-sjbs\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/4418932690478591181\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjMwMmYzMmI1ZDMwNDMxMDRmOGY2MjRiNjEzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2100\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/d227b6216fc9456ca1b11b2a9079c0dd\",\"title\":\"Xác thực Doanh nghiệp (Figma Export - No AI/No Nav)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/8290485029563165974\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtJr1Hu7dwDBi8oDpb4ZWGybjsI9GClaNaz1WATZ7NvxydsqqZ4uBWG9Fa4Bik50um2dcfwH5zVaNvFsQdXniUgzTShCaozhsCuqKaSztmwjIbReDexuf4p5OxYFcvDGWVZT02REE9x87LuBIUviGoRXTjrWzY3lMiZKLtck9g_P-mqIvca1iG3DXqsc7G5ctc4xSV-cAhxLu-sIgiNL_NQMVkTqMrbsCzrfFX3iSzIs2snfx64EoxQkQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/1784361819369261170\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjMwMmVhNzkxODkwOTI1Yzc1MjcxMjY2YzhlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"1768\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/6279416291810197313\",\"title\":\"Screenshot 2026-03-30 at 14.23.56.png\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/6279416291810195352\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLuv0WbzyDVULHyL1DOaZO8CV16Uc8PdLP_o54AMNJo1nVbECOlnCS-VLYnejEhWGI5KhyeFMZzKyG4DPR4-FSOXaXm-m9Im-DRtANruO87PzILE4HTB7skwyeddWrjORIi4I85-BvBdjbVNllA4MuF0f_-gJqEzy-MrDsTHKHI5XPenta5NpHk1GMxKAvkWp0IRcVS6v1YNaQd-5uDj67S1zoUMJHL09Y9sUbxIq5sozXZ-mpPHSQJ_XGALuwKHUHPJ05tRM-pQ5A\"},\"htmlCode\":{},\"width\":\"2950\",\"height\":\"572\"},{\"name\":\"projects/3413517588105881645/screens/759621dc801c4347a74c5960512c8ecf\",\"title\":\"Product Analysis & Negotiation Chat\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/b84367cf474b428b98aefdc396079af2\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsZ8F54u1YGuaaDGtTSMMRi-lIIF1h6gEI9blWxMvQwinohZosUGcamrz63JACZ1RKqeZ6I0rMjvbXxdChNsLBQyzieBUkakrLo7ZkbkQ3bFPrVbl8v-2rv6XbKpiaAWmbdgcAJFjDdHE92nAo2eaZwwHWP8i8XCLerOKoOABQjGRR__xyGeGRtbR8C26t2a934wY6KkY_aOXSSkn43LS60jW1y78sD7WQ01AW3T20Iwy9uxf1DQuPIrmE\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/17928310376435146808\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRlMTExZjkwNzc5OWQ5MTBiMzBlMDQ1EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2050\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/56b45b6a815c43fcb9b099776e8661e8\",\"title\":\"Chợ Thủy Sản - Marketplace\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/d32fe964089042a584fe675ffe665450\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLtSga2GHMgNhRQHtWA_aVKcqfUay-RJCIp7gCexGgMYSMh3zsb0ri-HM9Hl3fzqqK6CWElpNwCBIu-N6KkLJvWdybooqH6hvicKMvDbtY_4aMLh31UksPDIY3oogB-eHPRmxLq7wJAxd08lhG0PF9zWgPa3Let1fmjJxtzcUXHByqKufYmOzp7nESGKsUQ550Iy_DfYeo91t0wnAzZIrzh_WGe3yg4r-xAK_tn8h85EbBNQ9rE3WRkc-qQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/8238395576051062839\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM3MGUzMzMwMzgzOGZkMDliMzFmNWMxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2618\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/16262614916380246748\",\"title\":\"aquatrade-components.html\",\"screenshot\":{},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/16262614916380248571\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBKNARIhYXBwX2NvbXBhbmlvbl91c2VyX3VwbG9hZGVkX2ZpbGVzGmgKM3VzZXJfdXBsb2FkZWRfaHRtbF8wMDA2NTYxNjNiZjk1YzljMDAzMDM1MWVlNjE4ZTZkNhILEgcQh7aUmNQKGAGSASMKCnByb2plY3RfaWQSFUITMzQxMzUxNzU4ODEwNTg4MTY0NQ&filename=&opi=89354086\",\"mimeType\":\"text/html\"}},{\"name\":\"projects/3413517588105881645/screens/7ed577c89de042188530e0f19899fd2c\",\"title\":\"AquaTrade AI Registration Screen\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/6404c827d39d4f1c9900e64add612b6a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLs41TCWD_uMWpwogkx8pMMCxcOl9AiIIallBdBtrZLNtv7M9M_4W7E2wJg4bqf3JiSR6l9mmkLLNcKzxpzsOO-o1oPtMILNbouLi6DYogEJV8xhR0FJE0BnGDTMm8K2WoeGGJBwkTu_lzB5vXoPKSnSPWJbu68rzsCIzarVQWTQfF-H3nPTHzFoM0d4fynpe_A4P91dwV3NctbNdezgCui_IM45CTEIU0qqzzXIctO3QzUJjMhmeiJg3Ww\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/12875877314509250722\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjMyM2MxZTMwMDMwMzU5MzRhMTdiZjcwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/047affb34d5c4635b4f5c4141237b4ac\",\"title\":\"Rút Tiền (Seller Only) - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/13145629968955438210\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLslBj9mQHFoolmcicczS1BG6WvfQepXGp9LRxMipXPsF9GTrLifIoWbJv_yVSiSz3v8MLQ1IIkCPnT-8qr_kEub3WlCqPueMWSdQsXN2k_40VI-gGCURmoKVx3gEov5RNF6Qz1YLxoiHVvybk_4fyLSEPw8DBL1q0KNj3D6yQ28zrkF9b9EEBqs-0fNRl_Kh60Dl7mAwWaic56psZA3iV0UuLBSSAIxmny9-7FNW5BS3xTzM4uUgfEUNQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/16815419995295074724\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjkzYWM5OGQxMDgwN2M0ZDk2MzkzMzhkYzU2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"3228\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/a7130b5c87024398926c116e6a0102a7\",\"title\":\"AquaTrade AI Main Dashboard\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/1238048d618f4f9baf45d68811bb3193\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLslfRVNOIiY-JM5TMOpLMsD6ioGI_1e1qkEvQLJbJefSCSEHu3GBqkZ30m3at-Es3OXgNy37Q9frjByE0TaEZJvTcO0U1wExpJNmtVtvPWycbduJpxyUaw3gKgMfN-_mq2tn8Nx8YFrE2wQZ0x88TURd1Y_cHaiTaxaM_KmkqfSmbz1M88Od1f8IDGk4hPJcgTA62IURLfYgngWSuI73wrN3TchzMyJlt_dubDZF_iXpAtXNSGRXhBCvkI\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/8452052556592443873\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ0ODM3YzYwNzA5MWExOGQ3MmJlMjE5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2402\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/4bcafcbf70544ca587fe84c4ccb6f511\",\"title\":\"Nạp Tiền Vào Ví - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/6b4d786007cf4c32ba9bfb4652ec061a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLs47aDSG1lUwDsAtGlQWcBaSrWryafkPjYeIeDFgfzILMzTj77G7RY_plF3STL6VTrR4JHWf3FjK9oCYeGEYoVSLqW97yk6WQNMMD0Ndr-LqmOq4qC8QBjSBfa2hmznLak3j2dFddWDwaKE9oHr3Z2ggHDw9B2iqmzSJ-ru0SZaEgSjaILANF76HZhdtpD_SsiJh0Y_1pcYHrPT3k9_VrSdpHDqVfA6ddAPiHjCFr_MaYJ-SDNcKa_pwaM\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/4797088754994447915\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM4YjE5NjgwNzc5YWVjM2IxM2M4ZWE0EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3690\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/20ec01710bd247869570e5a5e0446f21\",\"title\":\"Rút tiền thành công - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/7229778987269035356\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvciLVxUAVCr8z1bcY1OVnlod-lbCWkz7BZ3uwEBv90xPPsRAuUWnNW0uEZptMytSN2vmjb7kgxGcLwD-pfp6WKglBrcQNOviB3zKuxFjX-N7sSgZTXbfrh2pOvJ2aUZ9UrwpETWjjsoOeeH8HV5T0hsQXCmckvAHMAQq0dsOIN95pERcvUQkb-iULc9nOoRU3xIxAHIfHuJMUd9IS4mlGcrZqGMO6ghyab1w6NKHOPxFFMKgqx-jX1LXA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/10332240056859781596\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NmE3NDg1ODI5MDgwODQwZGEyMDhmMzIyY2MxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2400\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/4322c2e99e1e4f5d861571d9c030639a\",\"title\":\"Chi Tiết Giá Sản Phẩm - AquaTrade AI\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/dc141691f6864fcba17062aa5a8f542e\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLsXphFPQmgUPcwjzZjfYeQvknxJNm5lcOX0bLnmFPHKQ2AcXqJ__MiUiaMOf3AwGlYCTjGyNUKUNQECtmf10076F2nTDzEo4ggHH9CTlzZireHxJ-_qFIoFrQcuhMIRB-7VNv8pjhpmOoUQICYQRnNIMy7W-mggx0ISf2R9p8GVf5PnZfmv3k78tJ-mdvsvjKF9xxf__ldd4yKo932sdrEwgvYSFV2y_UYYBPlGbkmVMuxAeUCKctaFdfw\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/7359845834517348821\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjVhYjZhNmUwMzRhNGUzMTk1MmZiY2Q5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3140\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/3413517588105881645/screens/1d7ca927df8c406cac9187390cee04aa\",\"title\":\"Quản lý Sản phẩm (Sub-tab) - AquaTrade AI Mobile (Figma Export)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/screens/1d7ca927df8c406cac9187390cee04aa/fileEntries/screenshot\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLs7g6ACnhhWSfNd76osb5VbeUhTiDb99IxHO3mwdzNfbSIt-RHlLQxDeRrRwCHdDtTJeyAHC2a5G4buc2n4t8pLIkb-u2nqnoM_0PwFye40ghgK7CWqpfLbKmGSPlcMvSUx5ulPRD6XIkepCLlxrBxXGCrPd5sYXaXoKVgh2gYFjgTvocbo7KLU04h8A3J4We0iUSySiwYlrvD-KJh-eAsiSQxcQkqbjRLaR4c59XVbRKWWS5fPSp5P-0M\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/screens/1d7ca927df8c406cac9187390cee04aa/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjZjZWJkODMyMzEwMWE2MDljMWViMGNkZjRmEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"800\",\"height\":\"2926\",\"deviceType\":\"MOBILE\"},{\"name\":\"projects/3413517588105881645/screens/92ece4bf435743db9c72d75e813f880c\",\"title\":\"Quản Lý Gian Hàng (Unified) - AquaTrade AI Mobile (Final)\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/9816610926539689882\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLufbOUDY6StDVKz8mMEAtRTtXUC16Bbxn2MnNegxe5gE66eNbz-j9Ovylhn3ssnWQJD-1kmlyW3cfaoAUojA_meA2ojvMsZnZ8Hv6lQn7935OK6hf8Qh193EN4mYm3thrnx4mX0onXcRqMOW8s-9zebOku1SOWeQgEdRBlKZc7sIoBoXiQGr89o4t1Q2NxNy1victWEtuj-8PWiYzF-dXEju_Hj1b3WFhpjeOlrHpfoXswAekEx20SS8ac\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/12664795249238738666\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjU1Y2ZiMDYwODlhZjVhZDE2MTYxZWJlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"800\",\"height\":\"3348\",\"deviceType\":\"MOBILE\"}]}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "screens": [
+        {
+          "deviceType": "MOBILE",
+          "height": "1890",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjU4YWE5OTAwMWE2MzI5NDZkMThmOGYwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/17409970923372116666"
+          },
+          "name": "projects/3413517588105881645/screens/8bbe700d27114246a20c8fdff63765f7",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtgixGccg40gNt1BIYSV5aCWu9o5c_8qwaUPUGO7cgnCNrFTFwjILPoAJKmbdNeLYlnjqg0Ixvv4LCZWLAhQVubkEviktPPcnkKuWtyDxwcbex2K3k73k_zdcFfCnW0f2E7gh3MpX2xO63rKopx2jb00yloRiRn7S3mg-kPCGWF_Mb60j8FDlWBagZCMqClQpsJ3OlKtJQdrw5PprMGCf-t1cZXrFy8vUOSiUnyefoLRe7VtDu8IDnFAA",
+            "name": "projects/3413517588105881645/files/10958229514446579672"
+          },
+          "title": "Đăng Nhập - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRiN2QzZmEwN2M0ZGMxZDRmMDc0ZTVhEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/16172235644197880446"
+          },
+          "name": "projects/3413517588105881645/screens/ed99c02d85da43de9dc3512fb2157481",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvQ4tAROkE6_yqpbpZu5aKICJX8iuZyHHS5LpwGMZ_F7Poza7mDxVTZbPSRY6_z-NwtXZbGv4blBEFxoGEPsrnY_eA7jJp2JMqZYLEX-pWQ_plKirnwNGVj4HnrLxTzwah5lPVUgXLVszhvwzh3Jp53Ylqx_IBlf-SOsVwQk3YOijOqcMilxy3NYx1qwrQhREUMAykROPWVbvbnqR8UKmwq30gOdS1nRjxjmcjQu02W8bI_AmgZ1PtaisE",
+            "name": "projects/3413517588105881645/files/353c35a5bb1e47dd9b5f2942fc658e0f"
+          },
+          "title": "AI Product Identification",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2950",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRhMThhODcwN2M0YzdlYmFhMDY5MThkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/9413444358905371591"
+          },
+          "name": "projects/3413517588105881645/screens/682710da2aa6495a81331a7598522300",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLv12d1DRufq5FRhAzmhwlyBVWe9xUAQjRExKMK7qID0ZmkBXl4uYdqK6afU2ginlGHTtNKcXjDAFlM72jqZEmLNeK0LocsJeOSeWBlzbxfpdICF3HoFADqvIZpe1b1fnmw7fjvsE6vhlv44pfuBYp7yX8Yb4drSpnpQxCq3eo8ekWcphI1fXz9hJWNu-wlx0BvKr_rrvz1UA657I3SBVabjTu_oIbuc0a6MWkNAbh9OqXPImywdaLZDJKQ",
+            "name": "projects/3413517588105881645/files/08a017c473554aa18ba1bd711e066010"
+          },
+          "title": "Liên Hệ & Cộng Đồng - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRjYTk3YzYwNGVhYjdkNjBhMDRjMmFhEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/5785405751832780554"
+          },
+          "name": "projects/3413517588105881645/screens/0aac858206134d70adb9e8c5bdc5c0ac",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLt_eYsR6O8SYWaANUBZ0mARVoY2EgGbBtvxfV-4yK1gj3Swq_Voc1ZIxNCR76p0gpDo-UdMh16TtqukCGb_VWZ60nhklKI2xoWtNKZFxxdMImz-n9mbB_LNlixTGl7GxZ-5OIu2tnv8WjntBS6yB1E6YfRI2Z6PeuKlOmsiZpfzwFAAfOIz3TC13hwQrSNHRuveq1xYB7DeDoe7DEPE50IJYCVWl5jQgbgegbHTf29KiucmDuCkWIIMbo4",
+            "name": "projects/3413517588105881645/files/7c97eaf76eb644a5abee6dc402ee443a"
+          },
+          "title": "Đăng tin & Cập nhật giá - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2592",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc4Mjc1ZGMyYTkwMjA3OTAzNWRhMDYzOGJkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/10232897438545617902"
+          },
+          "name": "projects/3413517588105881645/screens/31a8de2ffe1a4dfc8ae778cec3c5365a",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLscsZZ_g7rP5vSWNR2kwRjCaOHNM0xB8EtpdNwM3f5o1Q31HnHUrBS8f2cZzeWtppKq0wPxd9VQ0Hqv11kEXpJGo_HcxC4rmq9ywVxzxwixSmbLiyunRID7_ekGjiMcbCvMF6B6b9nyLYLZjQurVDwnsyr-kcUtNTfK5LT4tcRRxZBLNj7winjJFJzQSRCe1aDPl7PhEJ3-Ou_tHxAqOzryq_XxND0IcQUFuXnX9xg7Zu8LcASD6Dj43A",
+            "name": "projects/3413517588105881645/files/10154170011469963861"
+          },
+          "title": "Lịch sử đơn mua - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQxOTIxZTQwN2M0YzdlYmFhMDY5MThkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/6727200693571844499"
+          },
+          "name": "projects/3413517588105881645/screens/4013d29febb048a9a8161799482cb177",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvh8q7GwkVnqXY7jCzsL48TreZtiC8dMZhjSaHk0uBbqzaSabkuYWL0HwAFws1NDPeppirMW4LXmhG4VRNRa6SjtRWS3NTAb-p5ALXRlp57YmwOtpJDfZ2MKpFY0v1nuVbI7lXtGZt7xcJMxJAQoyDDmktNlqbFhtl4rUBDp5H2feOKVA1Rd4egU85rv5hQrXNwRp6GaxyJojbFTOrB-3KseR3VjavvtJ4CxmChTmZ1R4xAvUHrJoyBgA",
+            "name": "projects/3413517588105881645/files/640a7d3643304a5ca04e9e5583fddf55"
+          },
+          "title": "AquaTrade AI Login Screen",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2624",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM1NjQyNTAwMzgzOGZkMDliMzFmNWMxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/10156673135792559045"
+          },
+          "name": "projects/3413517588105881645/screens/31a62c071ba04e24b7b633eaf9a0d858",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtyg6_vpfNgQsfaq1oN1ts4d1z0o-dSWZt6sQ1qENq9Fjwg-l4_I9z8jZi0cSszGWlw9QYTwZOx46-VyeMveSuFawV9-Hd53U9nyseZakuBtL1IYfR8Bbc_dF7UBmdm1CS3dlIMOzAYfGAD_sy62erxEzSn_L4dGnDOigNCZiHBvJ5EKiqXTjAoKXBrGsimIW0-o9NorESD1NYVhBM3u1kdK8zBqByRR9rHG6agXzmftYpZ7z5zWmMsyS8",
+            "name": "projects/3413517588105881645/files/8e871ffa859e463c81c05ec6d4aebd3c"
+          },
+          "title": "Quản Lý Chợ - Admin Panel",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1768",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3NjU5Njg1M2YwMzM4NGU0NDVlMGIzYmM5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/screens/8f4d06d640f7418cbdeca6ee7114afe8/fileEntries/html"
+          },
+          "name": "projects/3413517588105881645/screens/8f4d06d640f7418cbdeca6ee7114afe8",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuuEY2GFi5lP8DfPxBYDUdm1JLZQGfcCnqvEwmUKa1ofrUNFPoQ87bfc-b1XBX4yRGtIEsq25CErLjUZC7C0ncJLdctWQ9Bl6wwPYiCiYVV5mnEAsCMnfTFwZx_f1NQDCypsykb8R6WBYuzHlCW4bKi-_dkrMV1sD4yyo6VR9Q7VzfwJuI6aED7o9uVH-izJM5RPlCYHGKVVRkLQODhioF5Zr_gHhYiSWlD-rjz87godj_DpwtzObWc-_I",
+            "name": "projects/3413517588105881645/screens/8f4d06d640f7418cbdeca6ee7114afe8/fileEntries/screenshot"
+          },
+          "title": "Đặt hàng thành công (Hoàn thiện) - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ3YjEzOTEwOTI1Yzc4Mjc3M2I1MGUyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/13583238898998630761"
+          },
+          "name": "projects/3413517588105881645/screens/6f60e6234bf34cb899c36c262fc1af56",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLt1GGtMfD7rpv7sLdWJvU2ZIMuUtlkyvZQp-7FiLzjCRA1z8R0d2E32Mqz8o9WVdyPKPfiz6JaCylZ6M8g04qvsse0SDx56ExSY22LiAJ8Us3ZwapGoPxFjVKHTLuJcpbyI8kAvBnbWYfwNuks9nzM1x8UtbZNG82khPQkeG70_5-DqcJ0BmKQJ0tcO2R3HviOcn6VHR59prhsWgFcUtuJF1Hh_OUVni60vzBuXfqfPCrzfoSlGPJU4LhQ",
+            "name": "projects/3413517588105881645/files/3856bdacafc8406c830af85d6803852d"
+          },
+          "title": "Support Center - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "3252",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjU0MGJmYzIwOTI1YzdkNGY2MWFmZGZjEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/8982859222766069469"
+          },
+          "name": "projects/3413517588105881645/screens/e7d9b0e2dd114569996bf43e82c4aa56",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuuKbt9ZXkCU6fU4AdB5u-3ByTSbQY3MAtYQOyZTHwz8O0cZKJ3UbjTHem4hhWhnghDefMKkL2C-7miHDHSLWnNozTE7YHfEyGmNfDbzxB4ldYRnZXLtLqaT-VXbZ2nD5iVCCgTcQiGe-j9O0aK-Xlh6mRhluc0MIH3vd67e5OlewXM4H0vpuik9LX__xMzU23CX2IFSGAyZi3nWD0a3IMa6wx71eb3bZIR1sKwDTtOaCQCu7ihkIftAHQ",
+            "name": "projects/3413517588105881645/files/a03d24ecab5b4dc1a8d72055a2ffbd5d"
+          },
+          "title": "Chi Tiết Sản Phẩm - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRkNTBmYjEwMDMwMzVkMmFmMWY1ZGVlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/15594524483541614306"
+          },
+          "name": "projects/3413517588105881645/screens/65a554afdaa141e2af89d7c559246df1",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuoxvx_PJw6YGkM239MbnY6TaGS6euLY_Dpk3PSJnVCIc7NesNv81pTj5dkPeyC8e4jjym653QbzMWSwDokfEOI032IjrCiHWffcndSGKwID892d1xtbkwFZlht1Zg3AidSuIJB-MozLyVqvSmsBqISL2MyAxGjR3143NIxbk--5YOb0U-GijySgS2meyDNrLT4QE120lkwAC58gwudnd3kQraJgYm748gXtRL4zhu9Ydt5hbJuGtjuzQ",
+            "name": "projects/3413517588105881645/files/44536681906d40ae8609af1641bc08dd"
+          },
+          "title": "Quản lý Người dùng - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2510",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjY3NjY1OWQwMDMwMzU5MzRhMTdiZjcwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/16089391549623213763"
+          },
+          "name": "projects/3413517588105881645/screens/e90aa7d64caf4b359adce21f9ef01d9f",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtKmO4WDCIyZrd4yoop9VEKRRorhpG9V37jehbcDSl00doxTA3KWlzG5D_nCrQt7dDkrr4Ji320TioYGNdE0JXcVKSonTrvJiE7XktpAmFs0_J0VhOor7ZPnLqSINYjR-5y4iMi9twiuVeDt3VYTYJAI7JAklsue-WWiAp2dNvUVOZK_W55tkF1VBrxLibq8n1Pavs2z-GbIRmccga8rJV4BKGCujZ7oUBlYCoULj5ZbZXBPxOhLFawDCc",
+            "name": "projects/3413517588105881645/files/614727707848812490"
+          },
+          "title": "Chi Tiết Sản Phẩm - AquaTrade AI Mobile (Optimized)",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2668",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjNjOTU5ZDkwNTNiNzViZDE5MTRkN2YwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/15309923141320202037"
+          },
+          "name": "projects/3413517588105881645/screens/8d51af79693f4fd3ad6e1b35890dbdf4",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvN1yTnJjcjtkLrKnKaNQxmCq4E9sNtFKm4jZBE728VFtbPR6lDPMrfu_qTl5b7_0jOhrUisOm33xBHhsDqYiOiK1PdUWTbS4VdVVUy2ZZI2YbwmGtky5vyda6D4YDEMgGh9yYhpKJOfKxoe7dexEtFFaCBSU5tIFjOPSQrbUbGQhBAhgYA4OGXF0gQQFLDmPwfQHe2lgvPhatqPP44X4p6ptCTiVczjreqTIFq5OJ9uOE1npAbdpIoTec",
+            "name": "projects/3413517588105881645/files/8345015314204287755"
+          },
+          "title": "Chợ Thủy Sản - Marketplace Mobile (VN)",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjUxNzJkMjcwOTI1ZDFiOWRlMjFmNDBlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/14339386994947223650"
+          },
+          "name": "projects/3413517588105881645/screens/67aec7d701334c6fb335951f91d3cb9c",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuNRXw3t3U7ejz2Vtu2bGgMLDMnRzMmCjGwuUFJhBAbGA-CBo_YK4pmt4vJECHig6AwNFFMoS8waI7osQ8hlCiAFn8BFggbf_EqJ0a0bebCbiwThuBGvv5lrRVix27PC0vWZWhg9Pq1qNUnzjOhMWfrb9EQ0KX66L4OixdRM_XnCBfPUznv_0dhpHwI2pIejyZ2zUD94kOqF8h6P_E_suV_AoswOoOYvHvwtlFuxbsYvjbYzvCWkJ1x78c",
+            "name": "projects/3413517588105881645/files/a9e41f9c13b94f7e8d8b1c17532ea453"
+          },
+          "title": "Tạo Bài Viết Mới - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1768",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjNhOTk4ZjEwNjM5NTY0NDNhM2JmYzFjEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/14811916628911426172"
+          },
+          "name": "projects/3413517588105881645/screens/28cad2b5b64e42478a9f78ec643838f4",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLsywxtoCwnxEDcoxnWdsbdBKH5jSTvTPf41CdR8_mgdZcos0odkLp4QQDpt9G3xIc75r6lFabBSS7RSQsB-OSFqlGguKQiAQkGs4BCbXez6jEjTrWVfTcuBdtqp1ulKav4jKG8uigNsQyI-4T4D4WsqGw7wTaBUTPAHMws_3f8jL2bb0734a7mpOd3R5cdWucI6kVw6GLTFGesVLPFSicT23cdHg_mIo9rFziqA21LvkUvrJOQP74HRDn4",
+            "name": "projects/3413517588105881645/files/2718453042401482878"
+          },
+          "title": "Đăng Ký Gian Hàng - AquaTrade AI (Optimized)",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2826",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3MTFlZGY2NzYwMzM4NWJjOTY2MzU4OWYwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/7918612451145454341"
+          },
+          "name": "projects/3413517588105881645/screens/a064e290d492465a8997feaf490454da",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLs_K2q4ffw-158MCwfq9_fxXjb0W_klni3l0AMH4c_gg9QRQz4PCSsd2-M5LcRGchQCMhSXlom-iWZQBFb-P_NRDRKqLVq4Y75te0z_QIEy64WSM09Qu9dOJ141kWjZaFtoHNueXDpKpwMeOPPqMH5LVtY-jcM4IXsmcC6pwIlhpLtky76y9O6zstrVV72nOdj9Go9OrQaF6lk98X8vUQ2KkocKy-7sIxz_li_DK4noRxl1_FhC4Dr1gg4",
+            "name": "projects/3413517588105881645/files/8058343059472400420"
+          },
+          "title": "Xác nhận thanh toán (Chuẩn hóa) - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1906",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjZkM2Y5MDI0ODIwMzgzOWJiMjFkMjZhNTMzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/9187177483544946423"
+          },
+          "name": "projects/3413517588105881645/screens/079b9642664341548fcbfb18a41d380a",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvP5sPoBdNt1sX2KXS9fvnnW3l5gw6KkQxb3jRh0TwC_CSkIcnpNaM_-4sX2ujCI0b2InkzLYBpMkeKpr9DXB05nmj2oW71ZucKUbUIa7osVKHx2_wa9Pc9xRbWjoWbHH6gYUTpPkV-qr2JE9bQkaNpH1xHcHAOlcxHjgObG1dmPpQyXDcCRplDiBd-oReQGI70mcA9LuSRod7e3bg976hQkO8GY7gnQdD7mAt2tU23d6I3zpc-v6BnpA",
+            "name": "projects/3413517588105881645/files/13458185600241359218"
+          },
+          "title": "Giỏ hàng - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2306",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQzNDBkYjIwODlhZjVhZDE2MTYxZWJlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/18168277596049790268"
+          },
+          "name": "projects/3413517588105881645/screens/f3a1e3731dab4710b22c585d78fcefed",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLsSUICs0RTJxCVLnuMCuoJsST4blYuhTZ4JBrobFQSdXDaC2hi_2xGXfrHTYsovlxUhM_ORqVlGZ7R0P_zegoyg6Si40frTtGunqEh8B6iyurkhz0amNvF375A-r_qdYU2TtqVl5CkjS9oaZICNhbxTXLwSqwhuBypVjPiIt19WBCJMZndwJYXby2V4rjpgbwlKga3quCnbG8AbD9HdAhAttBQKSBM76bPs42gRdU37mAQ-Dq_n3Fn3QzQ",
+            "name": "projects/3413517588105881645/files/a3d8ba3d2ff9405782cd276c96f48772"
+          },
+          "title": "Đăng Ký Tài Khoản - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjNlMzEwYTIwNzc5YTQ1N2E5MGVjYzgyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/8587637364730363574"
+          },
+          "name": "projects/3413517588105881645/screens/4df23ee53298479ab028e0358ea6a3c2",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLu-VMiAk1Lc8eg7CpljQiTqi5_sZueXdLmod7P23HXYPLFg9hCeCKmx5peIS2sIlwLiea_J2Xe-DSAeFwXXnNysoDM1ysWuGGirq9MeDaAZkVEf3vahoTFvOXgav9kM_LuluZTr4IDh39kKiGu4N2GJqtLnwQmV9IClNmrA7g8auPDszGBOknJmjGAbCGsHCt8mNSZVgaw8PkAEfP4C-k1eTMIWz5a-HV2BqlZZoHCHRHP_WfIObjB7mw",
+            "name": "projects/3413517588105881645/files/6f18f3edb30b4f0b8c5f75d1b26ad2b2"
+          },
+          "title": "Quản Lý Hàng Tồn Kho - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2910",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4ZmU2MzQ2NDIwMjA3YTM1ZWNmMjYzZDY2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/screens/4e45814247ad43cca85c979ec414c23f/fileEntries/html"
+          },
+          "name": "projects/3413517588105881645/screens/4e45814247ad43cca85c979ec414c23f",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuwS3vxVeYNjnx_P1ANXo-UEhDugNxuZuENO_2pgl_yV0ce8BNxxNaP5chsJYLyCJq_vet7sxdgryKRrxU85UDimmkKTNxRgWumaoKQgIARj6lOCxukHDg_bwZl1FOjP7SI-N5bRGVhav2nMtH7y3EFNppOATjtPDNwoDFwbq1Qeg1auEyKb2nEJdyaFkZsYSQglwiNrMsrq-hR2yXfLttfMgIkcBmokP9z5xXdlgMcDEIRhJ-ymf_lQN8",
+            "name": "projects/3413517588105881645/screens/4e45814247ad43cca85c979ec414c23f/fileEntries/screenshot"
+          },
+          "title": "Đăng ký Người bán - Bước 3: Cam kết",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM3ZDdlNTYwMDMwMzU5MzRhMTdiZjcwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/12875877314509251522"
+          },
+          "name": "projects/3413517588105881645/screens/da6513ad2a214e1b9ad24410c2df3662",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvPiEUbbjKxVP51O6FdAc5YC6KvlxSv8wmYJ8gpnFPZy27uzxCs7XZoB0_1enRJwNP5V8BA9S1y4SFIlCdMXC6DWlVBb7Mo4bgvsxvLe63Qs-eIn1WMDvhhOmN1niH1ndVpM_Gj-XzkCgKUOMU5owbsmnnUlMFiBP8RlFOAESL8VrVuoToRSW34x0U9aY-au2TkUW7LvAl0FJ9gP8NjdqssIBx16mvg9GsX_jpYYbX2SlXI9pO6l0QJXIA",
+            "name": "projects/3413517588105881645/files/4ab64f562fc344d7bf6492747e7e99c2"
+          },
+          "title": "Thanh Toán Đơn Hàng - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM2NjFkYTUwOTI1Yzc4Mjc3M2I1MGUyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/18237074760832703194"
+          },
+          "name": "projects/3413517588105881645/screens/14a9fa0e6ccb48788a959553662a6a5e",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLse9XyP_T3-smSM-IlJZRp8F9T5I4I1_Audsis_pJ-ryEQ2PHvl61hO7lMLY-rBYEL9gsX4trgCsXIskz1Rjer5jVnCAZYdWTPYTE00ZgA1yBmpnv9NPkqviSEtfKiCPPWKYb9bAJZvjGhMitp16igdyoxboBKnBOsKBICRq0D7ua7sMFCIo8xCxlgrXPTxwWyJFUhSLpQSjzwClSK-WTPR63DzXJfJa5Bo_MbiVptpcBVKBL__5cTbFdU",
+            "name": "projects/3413517588105881645/files/464cc2ce16bc410aacbf276fb888209f"
+          },
+          "title": "AI Analytics - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2478",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjZjYjk3MjkyNTgwMmE5YjRiN2RkMTA3Mjc4EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/15092166474351180046"
+          },
+          "name": "projects/3413517588105881645/screens/cdad184486284e1bb5a90c237356891d",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtVZMmy7_RU5569UKWrUdin1_XnXUEVBlZeuvsw3RV87t69SW7gChn6S4p5fgBB6xD8qUGoXFT1_ePiDWlkb4C34xniO90aloFp5l8h9cBTJOVhLaFEaDwp9qYA8DR2QLC5pBGPKWNtROk93YnkcJCZ9A8iVxfUU5b8MsgQwnVorFQCSbIVWdvX3Qyk6tMQeT6N7-1rCzhoBrajLL7KZ0hQPqnHM1H_JQfGjY9B21Z7qNujwxOfEtjoaG8",
+            "name": "projects/3413517588105881645/files/13026351376256315073"
+          },
+          "title": "Trạng thái: Đang chờ duyệt - AquaTrade AI Mobile (Final)",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2150",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3NDA2ODVjNzkwMzgzOWJiMjFkMjZhNTMzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/screens/78f06a199acc4b338f1c93fadb11c270/fileEntries/html"
+          },
+          "name": "projects/3413517588105881645/screens/78f06a199acc4b338f1c93fadb11c270",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLu2P2L2Nc8KnFzwibGz6J9ldMgxfjyyXwPCvPB04cZPqSoIR21sqAmToVxiRrOxW0LPoLCS4JoxyWhea-5QgxC0guKQTOxvmtGomPHyLovv1FGzR44C_U_zKMR02HHBVh5caktfiPdCtwRDh2Rs0GsRBKCcIj_TC47hlRj4iAauwqtdb480W6dPiP3Q-1YP1ijNthzMVHvfGwdfqbUlDDZ_cN8dFFNQkhrKdRrfESGUDKZXUFpMRHZAawM",
+            "name": "projects/3413517588105881645/screens/78f06a199acc4b338f1c93fadb11c270/fileEntries/screenshot"
+          },
+          "title": "Lỗi hệ thống/Hết hàng - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2294",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjU5ZDY5YjYwOTI1ZDRiMDFjMThlNGNkEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/7143219992943078971"
+          },
+          "name": "projects/3413517588105881645/screens/6aed3f61750f41dda7dc98e0c1b6edb8",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuz_XHkScsSp-nL0wmNhrZrioI-SwsCypyjQr_ocAL-jIiCU079FtiC8JYzLzvnFC4AuWCIHjCldCPeGe6fStnEI_0zhQ9wqM7QEqkqzGNOyi8gT_SGdNdmM4rsjY1eRJobLP0UqteIjvoCOlvCWZ6ARJHm5KNbhz62ys195l_zmUpX4-9bLVD3UwYd2htZP_iQqurpnQ7EUOzmUOEvBgP_oxpHAFYfMfTomIGMbKVx18J3P6zwiJQATdo",
+            "name": "projects/3413517588105881645/files/14935804873023740100"
+          },
+          "title": "Đăng Ký Tài Khoản - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2976",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjMwM2NhZjllMmMwMjA3YTI4MjM3MzlhYzA4EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/8213695774856164456"
+          },
+          "name": "projects/3413517588105881645/screens/eb8ed416a4d4419281a7f1ca4f96a36a",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtLEacpS9rQ9tuK1puz1ppkfSuMXsDIuxyoBIJZipXskxccaV9KyOTLCdW0VD1M_63kN_6xhhKsMmK2XWaRY4hmwpr69oP5WSbT8ts96yvBNbiQXd8ZPP9-p5CFpfM6_cMZgcUAkV4Dlv1YIGBxkjm-ismvIveAsLb0tBX6OeNeXmOguWiQWAknwSt3lUX1H40Y5nZNpmjak1NErrRl1r7atd4OOgpvbpigw4KjFc_4bFH3VGY4hVHKTBk",
+            "name": "projects/3413517588105881645/files/14518856697832047368"
+          },
+          "title": "Đăng ký Người bán - Bước 1: Thông tin (Mobile Optimized)",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2628",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQwYmI2Y2MwOTI1Yzc4Mjc3M2I1MGUyEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/1908605360277085433"
+          },
+          "name": "projects/3413517588105881645/screens/64182e1020164f41bea96e9c97ffbef1",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLu8WZqFt15rzvlJDNs4ARRDjV0EaJo90y0khaDck_wJQgtTUTB-h1xizQ-ddWc-7pgyDRwL3ZCOrmYNhb-p5zBZrYSy8dK41llvR0wbtj8Y3rm0W8zZfyfyznSd46RpWeD8s_dpMFdXmwYkWoFlNSWeNPxk-GugwkIIkBiRjv7wd3aWST431khgRVlNn6yCWGwW60qnWVt6sNkMMvtiU7Tu9qqI2GOfuieU5Ym4iPPlokpEdChzBeJutOc",
+            "name": "projects/3413517588105881645/files/db5e515e6dab4dcb99ff41052b4e19cd"
+          },
+          "title": "Quản Trị Hệ Thống - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQzZGMwMTUwMzMyZjYyZjE5MDIwMjA5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/17167717390817719912"
+          },
+          "name": "projects/3413517588105881645/screens/87652336f555424980badc4e79b73fd7",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtGtqG5cZsa5QFERx_s-k_H9WkdkVV3QZGrVP8xbSI4vmlDzSbEc1Xsp3Risp0PCfpujziSAXHl96ZvD41UGG0FmL_wd7xlSdpi0T1kNGaSQAMYPQjUVlS3DOeQZyUiJAJWQ4Azo7VJFUTa9vvLy0fRWWT7R54PBeH4KOR6lfXnoBAUJfHvuZOvhfe_ZXrIYN60oQx888OOl3bJxrs7JqPyP-x1PcwVN_Jv-xG5_6SHQxOzGuejXgxZs0s",
+            "name": "projects/3413517588105881645/files/c430cf3bbbad44d189500096f2787041"
+          },
+          "title": "Quản Lý & Đăng Tải Nội Dung - Admin",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2252",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ4NWM2YmIwMzgzOGZkMDliMzFmNWMxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/14979762241659586702"
+          },
+          "name": "projects/3413517588105881645/screens/dfce1933af8e48499fb9e3434aebc9d6",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLveyYSl30J-ZGiy_b8z0x47pNXkFmESQ4-r134lCfhlSQSVbgukRFkQ6ALQAviKTB_33Bpv_0nalAuTYi_9qauu9M0pgHOkcYqtm2YA795wofSpYLgm7MZm0o8alfRIDDM2O9albs1mrRZuue3qEyI-e0dImnF2FknSRh8E2x-oO8StY9SJ24nE-AaOE3nWYiBFeVBtkPaJyZeDh4lKP6Hf0QV2Lh-Ob0fj4dLURGqVWaViKVEh_mMYN74",
+            "name": "projects/3413517588105881645/files/22328a14a38e4008afe01ff17bb3627b"
+          },
+          "title": "Order History & Evidence",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "4414",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ5Mzg5NDYwOTI1YzdkNGY2MWFmZGZjEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/6935317589757513235"
+          },
+          "name": "projects/3413517588105881645/screens/62f94efe579742aeabe005f212ce9be6",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLscV_l--GbbBPs9RcRnJKtGPTVcFYy0rj92aV5FvDEK9PnJcLPB1rXH61jJqnvj5r-VTOFSr0_Za7SNhfeObdqLMfdfRW_eH3NawFeJnoUdlEw5FBUKdbywB2y6clqHTIcZ_BrdqLfpKROako2HRh8cPckYvgriLxoIjzzdQVZNQamMHE7K-IOMGcNfR8W0VillyvzFO8oXUVUo98HJuIS0KJHigzZ6mAtKylASU8vrFZGJx82qOAv-Lg",
+            "name": "projects/3413517588105881645/files/f58e67a882ab4cc5a38da5779cbb9645"
+          },
+          "title": "Cài Đặt Hệ Thống - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjNlZjQwZTYwNmZmYzkxZDhmMDhkZGM1EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/5702872095174472448"
+          },
+          "name": "projects/3413517588105881645/screens/199244f6892b427fb8caa5a69eed062f",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLumAg7xvSKmowknom6yyp4I3YKTUcQjXBNZ6M2e0N8W1zRZqi23kRarAHRW5qoW6sTw07A_A2ZhESV-0mvuPfmfNVwApBKQNRa1nsf7rfpO6L-AsGNbnmshU-sa8k9_Y42uE3F0FD_9qvspZYmGG-PMHSYQNcKPa0bjMTiYVVuVtVDaeEQwx6OYfKQbuUSU0-NIjDBilIYCSCUXEV6JNSXoXqmQnlks8tJNE7TPRqljmGqRwFVyLYZ3zSc",
+            "name": "projects/3413517588105881645/files/93ed73b77f2847119e693d0c1af8d722"
+          },
+          "title": "AquaTrade AI Main Dashboard",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1922",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjY4MDgwMzc1MjUwMjA3YWM5MTdhMmMwODQ0EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/4781228575422048952"
+          },
+          "name": "projects/3413517588105881645/screens/57ff91d802594147b59269c8e05a1d1f",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvLxwAH6t3nkI-NNZ4U-lrhz4X8dZ1adHAeih-5vcKH3Gu16bZVNITLSTLOXNzicbB5bAGMzYdNVJXlQVGMWQyL2dheXzwtAfL0L4YmY5C8FFRsu88iZyMwBox4efY2KUbS1sDBfMcCRjoFNveSVz5pl6dKAYdniv45v5xAcPma_cGFd8C1yw9BBejC5yQxQK73IBsgb2zXP18Omhj2zI8O_kRx24E1BWkRuiLUbKgG-tQGKkYAJBxNRw",
+            "name": "projects/3413517588105881645/files/11044952236182553603"
+          },
+          "title": "Ví AquaTrade - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "4814",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjNkYjIwNTQwMWE2MDk1ZDJkM2JjODlmEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/13121985418517964785"
+          },
+          "name": "projects/3413517588105881645/screens/51ec694ddd5e47619243ae8481a85d02",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLt782a7PmPsSLH6i1hdho9tiQ_SXWhuo6MsYq7OEEZoT7qwSNYflegGmXfpPWwV2aI8pFV77t5n9nnBaSHYFbAznwzfLFXbwqrhp2iN-ocGEWGMeo1qy3azZWh-wsQcgzXtIsvEG2jRqS-GHQh3_W-bBdmoQ10_9aihpjsrCrDv_4eQIrN8BE8RnOMghyoH_QGTMhQfof84PuPJj1ZYZQr1WRZRJZ591JwuorC0_YYqxJnMsn7hPcQ7KyA",
+            "name": "projects/3413517588105881645/files/e080fb1b1e4946a1a6d6b67f37fe3e3a"
+          },
+          "title": "AquaTrade AI Main Dashboard",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "3926",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjNiN2QwYmUwN2M0ZGMxZDRmMDc0ZTVhEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/14305287723126828580"
+          },
+          "name": "projects/3413517588105881645/screens/9e253cc192844a25ad91ecbaa1f2f615",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLsvDC3VCPVjDEgRCDQpA67nCLxChFEs20jlO4yQXbWYa_EHgebC6QOBOCCnKC2Q4xVC-M8LLk7ns7GNIj13EXbf8fu5OD4c_2ev94kBf6f-K_LT-0z6UYPsVVgFFtR8O3eEakjkfimwHvKW7O4HDDNSYXJnzb7MFgvaydgcJJmkgRz0v5bRzdCkPmpDZcBWu2HYMyLPmDDFSu1nKdAKzQRyOI--dEejwja_9jFWQ1Efz0EB5omnPjAyNlM",
+            "name": "projects/3413517588105881645/files/11531111241418045590"
+          },
+          "title": "Dashboard - AquaTrade AI Mobile (VN)",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2840",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc4MTdmNWNhN2UwNzc5YmRjYWE2MDY0NzViEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/9944794574289907535"
+          },
+          "name": "projects/3413517588105881645/screens/1e82108e1b7c4eabb5b7e4442d361813",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtS2Ffu9UPmclO5bdnmioxeoJrYEZZlOT4n-nHznOAL0IVWf-_YmvFXWDUZGBYF29q74ppwC30kN-PuxCRj0L22wERB2aJhNm5mPSMJfcgoMqHWnz8tvGca7j3vzQtvG34h4H5yFY1wrOF4LFPV7DFfMi3FiN2xW_x2JSBYxIiyasKg-fAEPBBDA5bP-KwJbhAsXGZp2tnqE6LhZO4UM8WZRyRZoSVtCBccpUqFuyTZKtB5HY2-PhUjx0I",
+            "name": "projects/3413517588105881645/files/17011567918743713463"
+          },
+          "title": "Chi Tiết Trạng Thái Đơn Hàng - AquaTrade AI Mobile (Standardized)",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1910",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1Njc3N2UwZDlkYzcwN2M0ZGQxYzNlMTJmNWExEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/3141281958550753241"
+          },
+          "name": "projects/3413517588105881645/screens/9dfc50a7a2674891b1b35c577f503c61",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtmP2rVy2lqM7H-OmfWUE51ooZa9dddVfFuX-uWiBMmd_yCT4ARxwLPYriXtCrJk4pH3tv7kSroQGfwI_CjxP22vPMzQcWIvlE0AM9iNm8pKKHmURR8l1X07cwqRC4U8dTs18qa1ZyUNT5BX40oNS3QiJRlpAllsJRUrx1NCnqHBiE8N75foMWUmNSs2pPMLpnBdzCS9jZuHDXVKjszelHdjqBRtLSIH-GBy6tsOgQmom4hHk39UzCooQ",
+            "name": "projects/3413517588105881645/files/1887551230123070300"
+          },
+          "title": "Lỗi thanh toán (Thiếu số dư) - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1950",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjdlNzMxODc3OWQwMzgzOWJiMjFkMjZhNTMzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/6977877709800082222"
+          },
+          "name": "projects/3413517588105881645/screens/39f058335cc549bb89737620cf3593fc",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvvUtvWu2qtE7x_1QKf_xbJ3Km2CQOJjuu672cDRQg6AWystsLf8qpIQLNM4K02f9bDhUXC4WSbym5SM2tPSlSFlVrqQRdL47w4rUuEfyP8A5XPlwBYvG2mwayzFSsbjm2B1FllzpKCil93M9d7i0bn3X-Vcq4O1ZxGNjCEVA7SOJh5eDED7WO5LlbT-JJCsPOGi_7eKxW1du7gA03Frzwf74TNn-liirXpxgycZt4TcrtwKY2Bl_VpXrk",
+            "name": "projects/3413517588105881645/files/10867689668240926320"
+          },
+          "title": "Nạp tiền thành công - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "884",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjE1MzQyZGJjNjMwMDMwMzFkMTJkMzliMGZlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/screens/69e270e226d54c3486c5259a147a2198/fileEntries/html"
+          },
+          "name": "projects/3413517588105881645/screens/69e270e226d54c3486c5259a147a2198",
+          "screenshot": {},
+          "title": "Product Analysis & Negotiation Chat",
+          "width": "390"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2646",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjdkNzhhNjM5MjgwN2UwMGU2NDY1MmM3ODg2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/screens/69a55488d4bb4d7d8e617ee6195e6922/fileEntries/html"
+          },
+          "name": "projects/3413517588105881645/screens/69a55488d4bb4d7d8e617ee6195e6922",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLs3BI5gUTRKnThRiEVxvA4geRlOClvxWAXr4HafWsi5OepMP5S4jBM-cmzMvl4SB653Xa0toS6SPgedyg82hAXsrPPLDJnTpTkHEOgdpgF_iVGbXUCV0ALKnK80IAUP2IFwa8JYTgiWrSEHp77p3wFFtY_lKvZmKw1d7k1ZurWYQt4Bp-Y9edoZOlCTNLzb2Re76q-4bCwT6gkpjs91RwHkVhwq37_0lkqJoa1OSvEvZC1hoglsrZaQWQ",
+            "name": "projects/3413517588105881645/screens/69a55488d4bb4d7d8e617ee6195e6922/fileEntries/screenshot"
+          },
+          "title": "Nạp Tiền Vào Ví (Chuẩn hóa Màu sắc) - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2118",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiNTZjOTJhNzgwN2M0Y2JkMmViMTJlYjk3EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/10036781275662934569"
+          },
+          "name": "projects/3413517588105881645/screens/d315db236b58447d9766b5e162efa81b",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLsBBLFGWgtlBJw_qw0BLVpOoC4N0_qqHTIgudhCSP0rDT92aFYwlf5xnYfRqDOx61muMiwq1v74hLwsysIFptGg4ncN-PGTWV4GZD-E28fQa0cEOWBuNPF2gzZAHNb2b7E9AKEsf_1l0jt-W3obVaJDC77-E33jKs3ZB8wmO9bpdnIQ0MmkZSHqDZdcs5vdaJzpWNrHDKMAW5yNFUUuGYalikxR7kkcCRFhOZPzGPPPcNYtuNKYtqq9Tk4",
+            "name": "projects/3413517588105881645/files/2229643047665160576"
+          },
+          "title": "Tài Khoản - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "3862",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjVlNTI1YTQwMDMwMzUxZWU2MThlNmQ2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/14145030639442581234"
+          },
+          "name": "projects/3413517588105881645/screens/e8bba1061b0a4d839762e32cb1a1badf",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLt7nzCuGdo_OmVqvocfWlq2sw_UNpQ5K-MElbGeLi11Uc-HMyMFK43kRjEIHzsq8FTMQtHfsXoXi-8hNfIPXk90eE4H0KQG78BbfxWu4zcpQVRvfrYoubZMzMN9yfnBzO26EzeHOy6H6QtxHPbOWCMd15l8HET9avXFoz1XQxupHMWXNCqJu-vWAV-6J6KU155ZNy8fCci2DItoKaaPNbjFcYpiCe4TQq34HOZOEm88exdV4KBNtYsR21A",
+            "name": "projects/3413517588105881645/files/c67aac64f152446a873b67b3133425d7"
+          },
+          "title": "Thị Trường Giá Thủy Sản",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2100",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjMwMmYzMmI1ZDMwNDMxMDRmOGY2MjRiNjEzEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/4418932690478591181"
+          },
+          "name": "projects/3413517588105881645/screens/17cee6ad718542e3a078c8702f8913d1",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLubBGHElyWZgHIaPUUbgalti9bi0g5xTQyiownJwD3cHWkOZjWHsfwqJ4TW7mElMUQ9iRG1Xf0y6KRe3N-GUb6zYswLoFJjTECFS6yFijaHzPXkpu7EduWyHM2FaOdut9t8rmrrmrNTaVOhS-boUtI0Cuq9UE9Geodp5QU7IvaHH2N9-QLpJOi8N2nCUlVdD2GTfZX_buelt2M1d1QY1PaeuXyBAI6pe7WttQHMb6uA4dRH7V77Zo-sjbs",
+            "name": "projects/3413517588105881645/files/14520266406000745611"
+          },
+          "title": "Đăng ký Người bán - Bước 2: Xác thực (Mobile Optimized)",
+          "width": "780"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "1768",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjMwMmVhNzkxODkwOTI1Yzc1MjcxMjY2YzhlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/1784361819369261170"
+          },
+          "name": "projects/3413517588105881645/screens/d227b6216fc9456ca1b11b2a9079c0dd",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtJr1Hu7dwDBi8oDpb4ZWGybjsI9GClaNaz1WATZ7NvxydsqqZ4uBWG9Fa4Bik50um2dcfwH5zVaNvFsQdXniUgzTShCaozhsCuqKaSztmwjIbReDexuf4p5OxYFcvDGWVZT02REE9x87LuBIUviGoRXTjrWzY3lMiZKLtck9g_P-mqIvca1iG3DXqsc7G5ctc4xSV-cAhxLu-sIgiNL_NQMVkTqMrbsCzrfFX3iSzIs2snfx64EoxQkQ",
+            "name": "projects/3413517588105881645/files/8290485029563165974"
+          },
+          "title": "Xác thực Doanh nghiệp (Figma Export - No AI/No Nav)",
+          "width": "780"
+        },
+        {
+          "height": "572",
+          "htmlCode": {},
+          "name": "projects/3413517588105881645/screens/6279416291810197313",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLuv0WbzyDVULHyL1DOaZO8CV16Uc8PdLP_o54AMNJo1nVbECOlnCS-VLYnejEhWGI5KhyeFMZzKyG4DPR4-FSOXaXm-m9Im-DRtANruO87PzILE4HTB7skwyeddWrjORIi4I85-BvBdjbVNllA4MuF0f_-gJqEzy-MrDsTHKHI5XPenta5NpHk1GMxKAvkWp0IRcVS6v1YNaQd-5uDj67S1zoUMJHL09Y9sUbxIq5sozXZ-mpPHSQJ_XGALuwKHUHPJ05tRM-pQ5A",
+            "name": "projects/3413517588105881645/files/6279416291810195352"
+          },
+          "title": "Screenshot 2026-03-30 at 14.23.56.png",
+          "width": "2950"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2050",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjRlMTExZjkwNzc5OWQ5MTBiMzBlMDQ1EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/17928310376435146808"
+          },
+          "name": "projects/3413517588105881645/screens/759621dc801c4347a74c5960512c8ecf",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLsZ8F54u1YGuaaDGtTSMMRi-lIIF1h6gEI9blWxMvQwinohZosUGcamrz63JACZ1RKqeZ6I0rMjvbXxdChNsLBQyzieBUkakrLo7ZkbkQ3bFPrVbl8v-2rv6XbKpiaAWmbdgcAJFjDdHE92nAo2eaZwwHWP8i8XCLerOKoOABQjGRR__xyGeGRtbR8C26t2a934wY6KkY_aOXSSkn43LS60jW1y78sD7WQ01AW3T20Iwy9uxf1DQuPIrmE",
+            "name": "projects/3413517588105881645/files/b84367cf474b428b98aefdc396079af2"
+          },
+          "title": "Product Analysis & Negotiation Chat",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2618",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM3MGUzMzMwMzgzOGZkMDliMzFmNWMxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/8238395576051062839"
+          },
+          "name": "projects/3413517588105881645/screens/56b45b6a815c43fcb9b099776e8661e8",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLtSga2GHMgNhRQHtWA_aVKcqfUay-RJCIp7gCexGgMYSMh3zsb0ri-HM9Hl3fzqqK6CWElpNwCBIu-N6KkLJvWdybooqH6hvicKMvDbtY_4aMLh31UksPDIY3oogB-eHPRmxLq7wJAxd08lhG0PF9zWgPa3Let1fmjJxtzcUXHByqKufYmOzp7nESGKsUQ550Iy_DfYeo91t0wnAzZIrzh_WGe3yg4r-xAK_tn8h85EbBNQ9rE3WRkc-qQ",
+            "name": "projects/3413517588105881645/files/d32fe964089042a584fe675ffe665450"
+          },
+          "title": "Chợ Thủy Sản - Marketplace",
+          "width": "2560"
+        },
+        {
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBKNARIhYXBwX2NvbXBhbmlvbl91c2VyX3VwbG9hZGVkX2ZpbGVzGmgKM3VzZXJfdXBsb2FkZWRfaHRtbF8wMDA2NTYxNjNiZjk1YzljMDAzMDM1MWVlNjE4ZTZkNhILEgcQh7aUmNQKGAGSASMKCnByb2plY3RfaWQSFUITMzQxMzUxNzU4ODEwNTg4MTY0NQ&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/16262614916380248571"
+          },
+          "name": "projects/3413517588105881645/screens/16262614916380246748",
+          "screenshot": {},
+          "title": "aquatrade-components.html"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2048",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjMyM2MxZTMwMDMwMzU5MzRhMTdiZjcwEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/12875877314509250722"
+          },
+          "name": "projects/3413517588105881645/screens/7ed577c89de042188530e0f19899fd2c",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLs41TCWD_uMWpwogkx8pMMCxcOl9AiIIallBdBtrZLNtv7M9M_4W7E2wJg4bqf3JiSR6l9mmkLLNcKzxpzsOO-o1oPtMILNbouLi6DYogEJV8xhR0FJE0BnGDTMm8K2WoeGGJBwkTu_lzB5vXoPKSnSPWJbu68rzsCIzarVQWTQfF-H3nPTHzFoM0d4fynpe_A4P91dwV3NctbNdezgCui_IM45CTEIU0qqzzXIctO3QzUJjMhmeiJg3Ww",
+            "name": "projects/3413517588105881645/files/6404c827d39d4f1c9900e64add612b6a"
+          },
+          "title": "AquaTrade AI Registration Screen",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "3228",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjkzYWM5OGQxMDgwN2M0ZDk2MzkzMzhkYzU2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/16815419995295074724"
+          },
+          "name": "projects/3413517588105881645/screens/047affb34d5c4635b4f5c4141237b4ac",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLslBj9mQHFoolmcicczS1BG6WvfQepXGp9LRxMipXPsF9GTrLifIoWbJv_yVSiSz3v8MLQ1IIkCPnT-8qr_kEub3WlCqPueMWSdQsXN2k_40VI-gGCURmoKVx3gEov5RNF6Qz1YLxoiHVvybk_4fyLSEPw8DBL1q0KNj3D6yQ28zrkF9b9EEBqs-0fNRl_Kh60Dl7mAwWaic56psZA3iV0UuLBSSAIxmny9-7FNW5BS3xTzM4uUgfEUNQ",
+            "name": "projects/3413517588105881645/files/13145629968955438210"
+          },
+          "title": "Rút Tiền (Seller Only) - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "2402",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjQ0ODM3YzYwNzA5MWExOGQ3MmJlMjE5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/8452052556592443873"
+          },
+          "name": "projects/3413517588105881645/screens/a7130b5c87024398926c116e6a0102a7",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLslfRVNOIiY-JM5TMOpLMsD6ioGI_1e1qkEvQLJbJefSCSEHu3GBqkZ30m3at-Es3OXgNy37Q9frjByE0TaEZJvTcO0U1wExpJNmtVtvPWycbduJpxyUaw3gKgMfN-_mq2tn8Nx8YFrE2wQZ0x88TURd1Y_cHaiTaxaM_KmkqfSmbz1M88Od1f8IDGk4hPJcgTA62IURLfYgngWSuI73wrN3TchzMyJlt_dubDZF_iXpAtXNSGRXhBCvkI",
+            "name": "projects/3413517588105881645/files/1238048d618f4f9baf45d68811bb3193"
+          },
+          "title": "AquaTrade AI Main Dashboard",
+          "width": "2560"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "3690",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjM4YjE5NjgwNzc5YWVjM2IxM2M4ZWE0EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/4797088754994447915"
+          },
+          "name": "projects/3413517588105881645/screens/4bcafcbf70544ca587fe84c4ccb6f511",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLs47aDSG1lUwDsAtGlQWcBaSrWryafkPjYeIeDFgfzILMzTj77G7RY_plF3STL6VTrR4JHWf3FjK9oCYeGEYoVSLqW97yk6WQNMMD0Ndr-LqmOq4qC8QBjSBfa2hmznLak3j2dFddWDwaKE9oHr3Z2ggHDw9B2iqmzSJ-ru0SZaEgSjaILANF76HZhdtpD_SsiJh0Y_1pcYHrPT3k9_VrSdpHDqVfA6ddAPiHjCFr_MaYJ-SDNcKa_pwaM",
+            "name": "projects/3413517588105881645/files/6b4d786007cf4c32ba9bfb4652ec061a"
+          },
+          "title": "Nạp Tiền Vào Ví - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2400",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NmE3NDg1ODI5MDgwODQwZGEyMDhmMzIyY2MxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/10332240056859781596"
+          },
+          "name": "projects/3413517588105881645/screens/20ec01710bd247869570e5a5e0446f21",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvciLVxUAVCr8z1bcY1OVnlod-lbCWkz7BZ3uwEBv90xPPsRAuUWnNW0uEZptMytSN2vmjb7kgxGcLwD-pfp6WKglBrcQNOviB3zKuxFjX-N7sSgZTXbfrh2pOvJ2aUZ9UrwpETWjjsoOeeH8HV5T0hsQXCmckvAHMAQq0dsOIN95pERcvUQkb-iULc9nOoRU3xIxAHIfHuJMUd9IS4mlGcrZqGMO6ghyab1w6NKHOPxFFMKgqx-jX1LXA",
+            "name": "projects/3413517588105881645/files/7229778987269035356"
+          },
+          "title": "Rút tiền thành công - AquaTrade AI Mobile",
+          "width": "780"
+        },
+        {
+          "deviceType": "DESKTOP",
+          "height": "3140",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjFiMjVhYjZhNmUwMzRhNGUzMTk1MmZiY2Q5EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/7359845834517348821"
+          },
+          "name": "projects/3413517588105881645/screens/4322c2e99e1e4f5d861571d9c030639a",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLsXphFPQmgUPcwjzZjfYeQvknxJNm5lcOX0bLnmFPHKQ2AcXqJ__MiUiaMOf3AwGlYCTjGyNUKUNQECtmf10076F2nTDzEo4ggHH9CTlzZireHxJ-_qFIoFrQcuhMIRB-7VNv8pjhpmOoUQICYQRnNIMy7W-mggx0ISf2R9p8GVf5PnZfmv3k78tJ-mdvsvjKF9xxf__ldd4yKo932sdrEwgvYSFV2y_UYYBPlGbkmVMuxAeUCKctaFdfw",
+            "name": "projects/3413517588105881645/files/dc141691f6864fcba17062aa5a8f542e"
+          },
+          "title": "Chi Tiết Giá Sản Phẩm - AquaTrade AI",
+          "width": "2560"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "2926",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjZjZWJkODMyMzEwMWE2MDljMWViMGNkZjRmEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/screens/1d7ca927df8c406cac9187390cee04aa/fileEntries/html"
+          },
+          "name": "projects/3413517588105881645/screens/1d7ca927df8c406cac9187390cee04aa",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLs7g6ACnhhWSfNd76osb5VbeUhTiDb99IxHO3mwdzNfbSIt-RHlLQxDeRrRwCHdDtTJeyAHC2a5G4buc2n4t8pLIkb-u2nqnoM_0PwFye40ghgK7CWqpfLbKmGSPlcMvSUx5ulPRD6XIkepCLlxrBxXGCrPd5sYXaXoKVgh2gYFjgTvocbo7KLU04h8A3J4We0iUSySiwYlrvD-KJh-eAsiSQxcQkqbjRLaR4c59XVbRKWWS5fPSp5P-0M",
+            "name": "projects/3413517588105881645/screens/1d7ca927df8c406cac9187390cee04aa/fileEntries/screenshot"
+          },
+          "title": "Quản lý Sản phẩm (Sub-tab) - AquaTrade AI Mobile (Figma Export)",
+          "width": "800"
+        },
+        {
+          "deviceType": "MOBILE",
+          "height": "3348",
+          "htmlCode": {
+            "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjI4MjU1Y2ZiMDYwODlhZjVhZDE2MTYxZWJlEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+            "mimeType": "text/html",
+            "name": "projects/3413517588105881645/files/12664795249238738666"
+          },
+          "name": "projects/3413517588105881645/screens/92ece4bf435743db9c72d75e813f880c",
+          "screenshot": {
+            "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLufbOUDY6StDVKz8mMEAtRTtXUC16Bbxn2MnNegxe5gE66eNbz-j9Ovylhn3ssnWQJD-1kmlyW3cfaoAUojA_meA2ojvMsZnZ8Hv6lQn7935OK6hf8Qh193EN4mYm3thrnx4mX0onXcRqMOW8s-9zebOku1SOWeQgEdRBlKZc7sIoBoXiQGr89o4t1Q2NxNy1victWEtuj-8PWiYzF-dXEju_Hj1b3WFhpjeOlrHpfoXswAekEx20SS8ac",
+            "name": "projects/3413517588105881645/files/9816610926539689882"
+          },
+          "title": "Quản Lý Gian Hàng (Unified) - AquaTrade AI Mobile (Final)",
+          "width": "800"
+        }
+      ]
+    }
+  }
+}

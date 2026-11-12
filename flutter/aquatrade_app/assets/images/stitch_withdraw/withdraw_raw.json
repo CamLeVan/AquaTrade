@@ -1,0 +1,28 @@
+{
+  "id": 10,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"name\":\"projects/3413517588105881645/screens/047affb34d5c4635b4f5c4141237b4ac\",\"title\":\"Rút Tiền (Seller Only) - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/13145629968955438210\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLslBj9mQHFoolmcicczS1BG6WvfQepXGp9LRxMipXPsF9GTrLifIoWbJv_yVSiSz3v8MLQ1IIkCPnT-8qr_kEub3WlCqPueMWSdQsXN2k_40VI-gGCURmoKVx3gEov5RNF6Qz1YLxoiHVvybk_4fyLSEPw8DBL1q0KNj3D6yQ28zrkF9b9EEBqs-0fNRl_Kh60Dl7mAwWaic56psZA3iV0UuLBSSAIxmny9-7FNW5BS3xTzM4uUgfEUNQ\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/16815419995295074724\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjkzYWM5OGQxMDgwN2M0ZDk2MzkzMzhkYzU2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"3228\",\"deviceType\":\"MOBILE\"}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "deviceType": "MOBILE",
+      "height": "3228",
+      "htmlCode": {
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NjkzYWM5OGQxMDgwN2M0ZDk2MzkzMzhkYzU2EgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+        "mimeType": "text/html",
+        "name": "projects/3413517588105881645/files/16815419995295074724"
+      },
+      "name": "projects/3413517588105881645/screens/047affb34d5c4635b4f5c4141237b4ac",
+      "screenshot": {
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLslBj9mQHFoolmcicczS1BG6WvfQepXGp9LRxMipXPsF9GTrLifIoWbJv_yVSiSz3v8MLQ1IIkCPnT-8qr_kEub3WlCqPueMWSdQsXN2k_40VI-gGCURmoKVx3gEov5RNF6Qz1YLxoiHVvybk_4fyLSEPw8DBL1q0KNj3D6yQ28zrkF9b9EEBqs-0fNRl_Kh60Dl7mAwWaic56psZA3iV0UuLBSSAIxmny9-7FNW5BS3xTzM4uUgfEUNQ",
+        "name": "projects/3413517588105881645/files/13145629968955438210"
+      },
+      "title": "Rút Tiền (Seller Only) - AquaTrade AI Mobile",
+      "width": "780"
+    }
+  }
+}

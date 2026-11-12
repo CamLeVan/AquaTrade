@@ -1,0 +1,28 @@
+{
+  "id": 10,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"name\":\"projects/3413517588105881645/screens/20ec01710bd247869570e5a5e0446f21\",\"title\":\"Rút tiền thành công - AquaTrade AI Mobile\",\"screenshot\":{\"name\":\"projects/3413517588105881645/files/7229778987269035356\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AP1WRLvciLVxUAVCr8z1bcY1OVnlod-lbCWkz7BZ3uwEBv90xPPsRAuUWnNW0uEZptMytSN2vmjb7kgxGcLwD-pfp6WKglBrcQNOviB3zKuxFjX-N7sSgZTXbfrh2pOvJ2aUZ9UrwpETWjjsoOeeH8HV5T0hsQXCmckvAHMAQq0dsOIN95pERcvUQkb-iULc9nOoRU3xIxAHIfHuJMUd9IS4mlGcrZqGMO6ghyab1w6NKHOPxFFMKgqx-jX1LXA\"},\"htmlCode\":{\"name\":\"projects/3413517588105881645/files/10332240056859781596\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NmE3NDg1ODI5MDgwODQwZGEyMDhmMzIyY2MxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2400\",\"deviceType\":\"MOBILE\"}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "deviceType": "MOBILE",
+      "height": "2400",
+      "htmlCode": {
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1NmE3NDg1ODI5MDgwODQwZGEyMDhmMzIyY2MxEgsSBxCHtpSY1AoYAZIBIwoKcHJvamVjdF9pZBIVQhMzNDEzNTE3NTg4MTA1ODgxNjQ1&filename=&opi=89354086",
+        "mimeType": "text/html",
+        "name": "projects/3413517588105881645/files/10332240056859781596"
+      },
+      "name": "projects/3413517588105881645/screens/20ec01710bd247869570e5a5e0446f21",
+      "screenshot": {
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AP1WRLvciLVxUAVCr8z1bcY1OVnlod-lbCWkz7BZ3uwEBv90xPPsRAuUWnNW0uEZptMytSN2vmjb7kgxGcLwD-pfp6WKglBrcQNOviB3zKuxFjX-N7sSgZTXbfrh2pOvJ2aUZ9UrwpETWjjsoOeeH8HV5T0hsQXCmckvAHMAQq0dsOIN95pERcvUQkb-iULc9nOoRU3xIxAHIfHuJMUd9IS4mlGcrZqGMO6ghyab1w6NKHOPxFFMKgqx-jX1LXA",
+        "name": "projects/3413517588105881645/files/7229778987269035356"
+      },
+      "title": "Rút tiền thành công - AquaTrade AI Mobile",
+      "width": "780"
+    }
+  }
+}

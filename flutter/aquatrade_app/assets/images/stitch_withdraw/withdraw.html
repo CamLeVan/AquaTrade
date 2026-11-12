@@ -1,0 +1,282 @@
+<!DOCTYPE html><html class="light" lang="vi" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Rút tiền - AquaTrade AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed": "#00201a",
+                        "on-primary-fixed": "#00201a",
+                        "background": "#f6f8f8",
+                        "error": "#ef4444",
+                        "secondary-container": "#f1f5f9",
+                        "surface-container": "#edf6f1",
+                        "inverse-surface": "#10221f",
+                        "primary-container": "#13ecc81a",
+                        "on-primary": "#0a1a17",
+                        "tertiary-fixed-dim": "#f3bf46",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "outline": "#13ecc81a",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#475569",
+                        "on-secondary": "#ffffff",
+                        "primary": "#13ecc8",
+                        "on-secondary-fixed-variant": "#0d5043",
+                        "tertiary-container": "#dbeafe",
+                        "surface-bright": "#ffffff",
+                        "on-tertiary-fixed": "#261a00",
+                        "secondary": "#334155",
+                        "on-tertiary-fixed-variant": "#5b4300",
+                        "tertiary": "#3b82f6",
+                        "surface-tint": "#13ecc8",
+                        "primary-fixed-dim": "#00dfbd",
+                        "secondary-fixed-dim": "#96d3c1",
+                        "primary-fixed": "#13ecc8",
+                        "secondary-fixed": "#b1efdd",
+                        "on-secondary-container": "#1e293b",
+                        "surface-container-high": "#e1eae6",
+                        "on-primary-fixed-variant": "#005143",
+                        "tertiary-fixed": "#ffdf9f",
+                        "surface-variant": "#ffffff",
+                        "outline-variant": "#13ecc80d",
+                        "surface-dim": "#d3dcd8",
+                        "on-tertiary-container": "#1e40af",
+                        "on-error-container": "#991b1b",
+                        "inverse-on-surface": "#f3fbf7",
+                        "surface-container-low": "#f0f4f4",
+                        "on-surface": "#0f172a",
+                        "on-primary-container": "#006b59",
+                        "surface": "#f6f8f8",
+                        "inverse-primary": "#00dfbd",
+                        "on-background": "#0f172a",
+                        "surface-container-highest": "#dce5e0",
+                        "error-container": "#fee2e2"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "display": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f6f8f8;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .active-tab-indicator {
+            position: absolute;
+            bottom: -2px;
+            height: 3px;
+            width: 20px;
+            background-color: #13ecc8;
+            border-radius: 99px;
+        }
+    </style>
+</head>
+<body class="text-on-surface select-none">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 h-16 backdrop-blur-md bg-surface/70">
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary/5 active:scale-95 transition-all text-on-surface-variant">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-xl font-bold tracking-tight text-on-surface">Rút tiền</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary/5 active:scale-95 transition-all text-on-surface-variant">
+<span class="material-symbols-outlined">history</span>
+</button>
+</div>
+</header>
+<main class="pt-20 pb-32 px-6 max-w-md mx-auto space-y-6">
+<!-- Balance Display -->
+<section class="space-y-4">
+<div class="p-6 rounded-xl bg-surface-bright shadow-sm border border-primary/5 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16"></div>
+<div class="relative z-10">
+<p class="text-[10px] font-label uppercase tracking-widest text-on-surface-variant mb-1">Số dư khả dụng</p>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-extrabold tracking-tighter text-on-surface">10.000.000</span>
+<span class="text-sm font-bold text-primary">VND</span>
+</div>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low border border-primary/5 flex gap-3 items-start">
+<span class="material-symbols-outlined text-on-surface-variant text-lg mt-0.5">info</span>
+<div>
+<div class="flex items-center justify-between">
+<p class="text-[10px] font-label uppercase tracking-widest text-on-surface-variant">Số dư đang tạm giữ (Escrow)</p>
+<p class="text-xs font-bold text-on-surface">2.500.000 VND</p>
+</div>
+<p class="text-[11px] text-on-surface-variant leading-relaxed mt-1">
+                        Tiền từ đơn hàng chưa hoàn tất, sẽ được giải ngân sau khi khách xác nhận nhận hàng.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Bank Selection -->
+<section class="space-y-3">
+<h2 class="text-[10px] font-label uppercase tracking-widest text-on-surface-variant px-1">Tài khoản thụ hưởng</h2>
+<div class="space-y-2">
+<!-- Selected Bank Card -->
+<div class="p-4 rounded-xl bg-surface-bright border-2 border-primary ring-4 ring-primary/5 flex items-center justify-between group cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<div class="w-12 h-8 bg-surface-container rounded-lg flex items-center justify-center overflow-hidden border border-primary/10">
+<img class="w-full h-full object-contain p-1" data-alt="Official Vietcombank logo in a clean minimalist banking app style with corporate blue and green accents on a white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwgLC4_4u4xbl8vy1fWthF5qWhaDT_LlfOn9kFWglchnhkqDt91VSLwxgJPkHijpmOQ6L4jIskP_NNjoQdZtFKJHYXFz29r3Plw3L8D8XS2pxQgm-NQUcE716IW-5IhhZn-7so3vqiICO0XDR_LJrE1ZX7_1drbXZH3-XH9rLFLjFIRqgElEZX7QBPjPohVFcZkFs5AnFib_XOPqOMqjL1sj6jGwhqYAfG48l7nNmRaLGCMLb8G8dr">
+</div>
+<div>
+<p class="text-sm font-bold text-on-surface leading-tight">Vietcombank</p>
+<p class="text-xs text-on-surface-variant font-mono">**** 8899</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<!-- Add New Button -->
+<button class="w-full p-4 rounded-xl border border-dashed border-primary/20 flex items-center justify-center gap-2 hover:bg-primary/5 active:scale-[0.98] transition-all text-primary">
+<span class="material-symbols-outlined text-lg">add_circle</span>
+<span class="text-xs font-bold uppercase tracking-wider">Thêm tài khoản mới</span>
+</button>
+</div>
+</section>
+<!-- Amount Input -->
+<section class="space-y-3">
+<label class="text-[10px] font-label uppercase tracking-widest text-on-surface-variant px-1">Số tiền muốn rút</label>
+<div class="relative group">
+<input class="w-full bg-surface-container-lowest border-0 focus:ring-2 focus:ring-primary rounded-xl p-5 text-xl font-bold tracking-tight text-on-surface placeholder:text-on-surface-variant/30 transition-all" placeholder="0" type="number" value="5000000">
+<button class="absolute right-4 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider hover:bg-primary/20 active:scale-95 transition-all">
+                    Rút tối đa
+                </button>
+</div>
+</section>
+<!-- Transaction Summary -->
+<section class="p-5 rounded-xl bg-surface-bright border border-primary/5 space-y-3">
+<div class="flex justify-between items-center text-xs">
+<span class="text-on-surface-variant">Phí rút tiền</span>
+<span class="font-bold text-primary uppercase tracking-tighter">Miễn phí</span>
+</div>
+<div class="flex justify-between items-center text-xs">
+<span class="text-on-surface-variant">Thời gian xử lý</span>
+<span class="font-bold text-on-surface">24 - 48h</span>
+</div>
+<div class="h-px bg-primary/5 my-1"></div>
+<div class="flex justify-between items-center">
+<span class="text-sm font-bold text-on-surface">Số tiền thực nhận</span>
+<div class="text-right">
+<p class="text-lg font-extrabold text-on-surface tracking-tight">5.000.000 <span class="text-xs font-bold text-primary">VND</span></p>
+</div>
+</div>
+</section>
+<!-- Security Note -->
+<div class="flex items-center justify-center gap-2 py-2">
+<div class="flex items-center gap-1 text-[10px] font-bold text-on-surface-variant opacity-60 uppercase tracking-widest">
+<span class="material-symbols-outlined text-[14px]">verified_user</span>
+                Bảo mật bởi AI Guard
+            </div>
+</div>
+<!-- Action Area -->
+<div class="fixed bottom-24 left-0 w-full px-6 z-40 max-w-md mx-auto left-1/2 -translate-x-1/2">
+<button class="w-full py-4 bg-primary text-on-primary font-bold rounded-xl shadow-lg shadow-primary/20 active:scale-95 transition-transform flex items-center justify-center gap-2" id="withdraw-btn">
+<span class="">Xác nhận rút tiền</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 bg-surface-container-lowest shadow-[0_-4px_20px_rgba(0,0,0,0.03)] rounded-t-xl border-t border-primary/5">
+  <button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all">
+    <span class="material-symbols-outlined">home</span>
+    <span class="font-label uppercase tracking-widest text-[10px] mt-1">Trang chủ</span>
+  </button>
+  <button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all">
+    <span class="material-symbols-outlined">storefront</span>
+    <span class="font-label uppercase tracking-widest text-[10px] mt-1">Chợ</span>
+  </button>
+  <div class="relative -top-6">
+    <button class="bg-primary text-on-primary w-14 h-14 rounded-full shadow-lg flex items-center justify-center active:scale-90 transition-transform ring-4 ring-background">
+      <span class="material-symbols-outlined text-2xl">center_focus_strong</span>
+    </button>
+    <span class="absolute -bottom-6 left-1/2 -translate-x-1/2 font-label uppercase tracking-widest text-[10px] text-primary font-bold whitespace-nowrap">Quét AI</span>
+  </div>
+  <button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all">
+    <span class="material-symbols-outlined">chat</span>
+    <span class="font-label uppercase tracking-widest text-[10px] mt-1">Tin nhắn</span>
+  </button>
+  <button class="flex flex-col items-center justify-center text-primary p-2 transition-all">
+    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person</span>
+    <span class="font-label uppercase tracking-widest text-[10px] mt-1">Tài khoản</span>
+  </button>
+</nav>
+<!-- Security Modal/Overlay (Hidden by default) -->
+
+<script>
+        const withdrawBtn = document.getElementById('withdraw-btn');
+        const modal = document.getElementById('security-modal');
+        const backdrop = document.getElementById('modal-backdrop');
+        const content = document.getElementById('modal-content');
+        const closeModal = document.getElementById('close-modal');
+
+        function openModal() {
+            modal.classList.remove('pointer-events-none');
+            backdrop.classList.remove('opacity-0');
+            backdrop.classList.add('opacity-100');
+            content.classList.remove('translate-y-full');
+            content.classList.add('translate-y-0');
+        }
+
+        function hideModal() {
+            modal.classList.add('pointer-events-none');
+            backdrop.classList.add('opacity-0');
+            backdrop.classList.remove('opacity-100');
+            content.classList.add('translate-y-full');
+            content.classList.remove('translate-y-0');
+        }
+
+        withdrawBtn.addEventListener('click', openModal);
+        closeModal.addEventListener('click', hideModal);
+        backdrop.addEventListener('click', hideModal);
+
+        // Simple haptic-like simulation on buttons
+        const allButtons = document.querySelectorAll('button');
+        allButtons.forEach(btn => {
+            btn.addEventListener('touchstart', () => {
+                if (window.navigator.vibrate) {
+                    window.navigator.vibrate(5);
+                }
+            });
+        });
+    </script>
+
+
+
+</body></html>
